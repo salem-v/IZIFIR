@@ -1,0 +1,299 @@
+.text_banner {
+  background: var(--line-gr-back-page);
+  box-shadow: var(--main-shadow);
+  padding-top: 300px;
+  margin-top: -235px;
+  padding-bottom: 40px;
+  position: relative;
+  z-index: 7;
+  overflow: hidden;
+
+  &::before {
+    content: url("/local/templates/.default/assets/img/background/text_banner_before.png");
+    position: absolute;
+    right: 0;
+    top: -135px;
+    z-index: 1;
+  }
+
+  &_article {
+    padding-top: 17%;
+    margin-top: -15%;
+  }
+
+  &_overflow {
+    overflow: visible;
+
+    &::before {
+      top: 0;
+    }
+  }
+
+  &__title {
+    font: {
+      weight: 600;
+      size: 2rem;
+    }
+    line-height: 133%;
+    padding-left: 145px !important;
+  }
+
+  &__text {
+    font: {
+      weight: 500;
+      size: 1.375rem;
+    }
+    line-height: 160%;
+  }
+
+  .title {
+    background: transparent;
+  }
+
+  .blog__rating {
+    width: fit-content;
+    float: left;
+    margin-right: 30px;
+
+    img {
+      margin-right: 5px;
+    }
+  }
+
+  .item {
+    &__likes {
+      width: fit-content;
+      float: left;
+      margin-right: 30px;
+      display: flex;
+
+      img {
+        margin-right: 10px;
+      }
+
+      p {
+        margin: 0;
+      }
+    }
+
+    &__view {
+      width: fit-content;
+      margin-right: 30px;
+      display: flex;
+
+      p {
+        margin: 0;
+      }
+
+      div {
+        display: flex;
+        margin-right: 30px;
+
+        img {
+          margin-right: 10px;
+        }
+      }
+    }
+
+    &__personal {
+      display: flex;
+      align-items: center;
+      margin-bottom: 30px;
+      flex-wrap: wrap;
+
+      img {
+        border-radius: 50px;
+        overflow: hidden;
+        object-fit: cover;
+      }
+    }
+
+    &__name {
+      color: var(--text-color-main);
+    }
+  }
+
+  &__img {
+    background: linear-gradient(137.62deg, #FFFFFF 1.27%, rgba(255, 255, 255, 0.1) 112.55%);
+    -webkit-backdrop-filter: blur(4px);
+    backdrop-filter: blur(4px);
+    border-radius: var(--border-radius);
+    width: 80%;
+    height: 85%;
+    position: relative;
+    text-align: center;
+    padding-top: 20px;
+  }
+
+  &_date {
+    margin-top: 25px;
+
+    p {
+      font: {
+        weight: 500;
+        size: 1rem;
+      }
+      line-height: 20px;
+    }
+  }
+
+  &_author {
+    padding-top: 135px;
+    margin-top: -155px;
+
+    .author__img {
+      object-fit: cover;
+      border-radius: var(--border-radius);
+    }
+  }
+
+  &__social {
+    display: flex;
+
+    .btn {
+      padding: 8px;
+      height: 40px;
+      width: 40px;
+      margin-right: 15px;
+
+      img {
+        width: 100%;
+        margin: 0;
+      }
+    }
+  }
+}
+
+@media (max-width: 1400px) {
+  .text_banner {
+    &::before {
+      top: -40px;
+    }
+
+    &_author {
+      margin-top: -220px;
+    }
+  }
+}
+
+@media (max-width: 1260px) {
+  .text_banner {
+    &_article {
+      padding-top: 19%;
+      margin-top: -16%;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .text_banner {
+    &:before {
+      display: none;
+    }
+
+    &_article {
+      padding-top: 31%;
+      margin-top: -27%;
+    }
+
+    &_article {
+      padding-top: 55%;
+      margin-top: -45%;
+    }
+
+    .item {
+      &__name {
+        padding-left: 3%;
+      }
+    }
+
+    &_author {
+      .author__img {
+        margin-bottom: 25px;
+      }
+    }
+  }
+}
+
+@media (max-width: 475px) {
+  .text_banner {
+    &__social {
+      flex-wrap: wrap;
+      justify-content: center;
+
+      .btn {
+        padding: 13px;
+        height: 50px;
+        width: 50px;
+        margin-right: 10px;
+        margin-bottom: 20px;
+      }
+    }
+
+    .blog {
+      &__rating {
+        margin-right: 15px;
+      }
+    }
+
+    .item {
+      &__likes {
+        margin-right: 15px;
+      }
+
+      &__view {
+        width: fit-content;
+        margin-right: 0;
+        display: flex;
+        align-items: center;
+
+        div {
+          margin-right: 15px;
+
+          img {
+            margin-right: 10px;
+            width: 15px;
+            height: 20px;
+            object-fit: contain;
+          }
+        }
+      }
+
+      &__name {
+        padding-left: 15%;
+      }
+
+    }
+
+    &_overflow {
+      padding-top: 65%;
+    }
+
+    &_author {
+      margin-top: -130px;
+
+      .text_banner__text {
+        font: {
+          size: 1rem;
+        }
+        margin-top: 20px;
+      }
+    }
+  }
+}
+
+@media (max-width: 380px) {
+  .text_banner {
+    &_overflow {
+      padding-top: 75%;
+    }
+
+    &_author {
+      .text_banner__text {
+        font: {
+          size: .875rem;
+        }
+      }
+    }
+  }
+}

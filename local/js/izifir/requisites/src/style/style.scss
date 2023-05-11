@@ -1,0 +1,50 @@
+.requisites {
+  background-color: var(--back-color);
+  position: relative;
+  z-index: 9;
+
+  &__text {
+    font: {
+      weight: 600;
+      size: 1.125rem;
+    }
+    line-height: 150%;
+
+    span {
+      font: {
+        size: 1rem;
+      }
+    }
+
+    &_name {
+      margin-bottom: 20px;
+    }
+  }
+
+  &__button {
+    margin-top: 40px;
+  }
+
+  &__img {
+    border-radius: var(--border-radius);
+  }
+}
+
+@media (max-width: 1200px) {
+  .requisites {
+    padding-bottom: 50px;
+
+    &__img {
+      width: 100%;
+      object-fit: contain;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .requisites {
+    &__img {
+      margin-top: 55px;
+    }
+  }
+}

@@ -1,0 +1,1 @@
+{"version":3,"file":"vacancy.bundle.js","sources":["../src/vacancy.js"],"sourcesContent":["import './style/style.scss'\nimport 'main.core'\n\nexport class Vacancy\n{\n\tconstructor(options = {name: 'Vacancy'})\n\t{\n\t}\n}"],"names":["options","name"],"mappings":"uDAKC,SAAYA,YAAAA,IAAAA,EAAU,CAACC,KAAM,WAE7B"}

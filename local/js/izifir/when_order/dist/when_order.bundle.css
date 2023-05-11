@@ -1,0 +1,41 @@
+.when_order {
+  background-color: var(--back-color);
+  position: relative; }
+  .when_order:before {
+    content: url("/local/templates/.default/assets/img/background/when_back.png");
+    position: absolute;
+    width: 100%;
+    overflow: hidden;
+    top: -360px;
+    left: 0;
+    z-index: 1; }
+
+.when__card .card {
+  height: 90%;
+  display: flex !important;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  align-content: flex-start;
+  background: var(--back-color-block); }
+  .when__card .card__static:hover {
+    display: flex; }
+  .when__card .card__img {
+    width: 55px;
+    height: 55px;
+    border-radius: 50px;
+    text-align: center;
+    padding: 13px;
+    margin-bottom: 20px;
+    margin-right: 20px; }
+  .when__card .card__title {
+    font-weight: 600;
+    font-size: 1.375rem;
+    line-height: 133%;
+    width: 80%; }
+
+@media (max-width: 480px) {
+  .when__card .card__title {
+    font-weight: 600;
+    font-size: 1.125rem;
+    line-height: 133%;
+    width: 76%; } }

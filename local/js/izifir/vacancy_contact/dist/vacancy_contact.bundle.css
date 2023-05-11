@@ -1,0 +1,10 @@
+.vacancy_contact {
+  position: relative;
+  background: var(--back-color);
+  padding-top: 60px; }
+  .vacancy_contact_back {
+    background: linear-gradient(263.67deg, #FFE9DA -0.08%, #FFEAE7 45.29%, #FFEBF5 90.67%); }
+  .vacancy_contact .map:after {
+    display: none; }
+  .vacancy_contact .form__button {
+    flex-wrap: wrap; }

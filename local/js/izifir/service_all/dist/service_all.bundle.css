@@ -1,0 +1,70 @@
+.service_all {
+  background: var(--back-color);
+  position: relative;
+  padding-bottom: 120px;
+  padding-top: 1px; }
+  .service_all:before {
+    content: url("/local/templates/.default/assets/img/background/service_all_back.png");
+    position: fixed;
+    width: 100%;
+    overflow: hidden;
+    top: 0;
+    z-index: 1; }
+  .service_all .container:before {
+    content: url("/local/templates/.default/assets/img/background/IZIFIR.svg");
+    position: fixed;
+    top: 290px;
+    width: 100%;
+    z-index: -1; }
+  .service_all__item {
+    display: flex !important;
+    flex-wrap: wrap;
+    align-items: stretch;
+    margin-bottom: 0 !important; }
+  .service_all .item__img {
+    width: 40%; }
+    .service_all .item__img .card__img {
+      margin-bottom: 0;
+      max-width: 300px;
+      max-height: 165px; }
+  .service_all .item__text {
+    width: 60%;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; }
+    .service_all .item__text h4 {
+      font-weight: 600;
+      font-size: 1.125rem;
+      line-height: 133%; }
+  .service_all .item__link {
+    margin-top: 40px;
+    margin-bottom: 20px; }
+  .service_all .button_all {
+    text-align: center;
+    margin-top: 30px; }
+
+@media (max-width: 1200px) {
+  .service_all .item__text h4 {
+    min-height: 70px; } }
+
+@media (max-width: 768px) {
+  .service_all .item__img .card__img {
+    margin-bottom: 20px;
+    max-width: inherit;
+    max-height: 165px; }
+  .service_all .item__link {
+    margin-top: 20px; }
+  .service_all .item__text h4 {
+    min-height: auto; }
+  .service_all__item {
+    margin-bottom: 30px !important; } }
+
+@media (max-width: 600px) {
+  .service_all .item__img {
+    width: 100%; }
+  .service_all .item__text {
+    width: 100%;
+    padding-left: 0; }
+  .service_all .item__link {
+    text-align: center; } }

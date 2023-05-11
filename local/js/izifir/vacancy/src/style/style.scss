@@ -1,0 +1,90 @@
+.vacancy {
+  background: var(--back-color);
+
+  .container {
+    position: relative;
+    z-index: 10;
+
+    .card {
+      position: relative;
+      height: calc(100% - 30px);
+      display: flex !important;
+      flex-wrap: wrap;
+      align-content: flex-start;
+
+      &__title {
+        width: 100%;
+      }
+
+      &__time {
+        color: #4270AD;
+        margin-right: 15px;
+        margin-top: 15px;
+        width: auto;
+
+        &:nth-last-child(1) {
+          margin-right: 0;
+        }
+
+        p {
+          font: {
+            weight: 500;
+            size: .875rem;
+          }
+          line-height: 15px;
+        }
+      }
+
+      &__request {
+        margin-top: 20px;
+
+        h4 {
+          font: {
+            weight: 700;
+            size: 1.125rem;
+          }
+          line-height: 160%;
+        }
+
+        &__item {
+          margin-bottom: 15px;
+
+          &:nth-last-child(1) {
+            margin-bottom: 0;
+          }
+
+          p {
+            font: {
+              weight: 500;
+              size: 1rem;
+            }
+            line-height: 160%;
+          }
+        }
+      }
+
+      &__data {
+        position: absolute;
+        bottom: 30px;
+        color: #7E7E7E;
+
+        p {
+          font-size: 1rem;
+        }
+      }
+
+      &__button {
+        margin-top: 60px;
+        margin-bottom: 30px;
+        text-align: right;
+        width: 100%;
+
+        .btn {
+          position: absolute;
+          right: 30px;
+          bottom: 35px;
+        }
+      }
+    }
+  }
+}

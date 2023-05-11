@@ -1,0 +1,72 @@
+.promotion {
+  background: var(--back-color);
+
+  &__text {
+    font: {
+      weight: 600;
+      size: 1.375rem;
+    }
+    line-height: 160%;
+    width: 80%;
+  }
+
+  .card_wraper {
+    margin-top: 120px;
+
+    .card {
+      padding: 40px;
+
+      &__title {
+        font: {
+          weight: 600;
+          size: 1.625rem;
+        }
+        line-height: 133%;
+        margin-bottom: 30px;
+      }
+
+      &__text {
+        font: {
+          weight: 500;
+          size: 1.375rem;
+        }
+        line-height: 160%;
+      }
+
+      &__button {
+        margin-top: 30px;
+        margin-bottom: 20px;
+      }
+    }
+  }
+}
+
+@media (max-width: 1260px) {
+  .promotion {
+    &__text {
+      font: {
+        size: 1.25rem;
+      }
+      width: 90%;
+      margin-top: 40px !important;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .promotion {
+    &__text {
+      width: 100%;
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .promotion {
+    &__text {
+      font: {
+        size: 1rem;
+      }
+    }
+  }
+}

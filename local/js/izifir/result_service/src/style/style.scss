@@ -1,0 +1,123 @@
+.result {
+    background-color: #fff;
+    position: relative;
+    z-index: 10;
+    margin-top: 50px;
+    padding-top: 40px !important;
+
+    &__item {
+        background: #FFFDFB !important;
+
+        &:nth-last-child(1) {
+            margin-bottom: 0;
+        }
+
+        .item {
+            &__img {
+                width: 48px;
+                height: 48px;
+                padding: 10px;
+                border-radius: var(--border-radius);
+                float: left;
+                box-shadow: var(--main-shadow);
+            }
+
+            &__title {
+                padding-left: 70px;
+            }
+
+            &__text {
+                padding-left: 70px;
+
+                p {
+                    margin: 0;
+                }
+            }
+        }
+    }
+
+    &__img {
+        img {
+            object-fit: cover;
+            border-radius: var(--border-radius);
+        }
+    }
+
+    .card{
+        &_wraper {
+            margin-bottom: 0;
+        }
+    }
+
+    .row {
+        align-items: center;
+    }
+}
+
+.page  {
+    overflow-x: hidden;
+}
+
+@media (max-width: 1600px) {
+    .result {
+        &__img {
+            img {
+                width: 100%;
+            }
+        }
+    }
+}
+
+@media (max-width: 1320px) {
+    .result {
+        .item {
+            &__img {
+                float: none;
+                margin: 0 auto 15px;
+            }
+
+            &__title {
+                padding-left: 0;
+            }
+
+            &__text {
+                padding-left: 0;
+            }
+        }
+    }
+}
+
+@media (max-width: 1200px) {
+    .result {
+        .col-md-4 {
+            display: none;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .result {
+        .card_wraper {
+            margin-top: 30px;
+
+            &:nth-child(1) {
+                margin-top: 0;
+            }
+        }
+
+        .item {
+            &__img {
+                float: left;
+                margin: 0 auto 15px;
+            }
+
+            &__title {
+                padding-left: 70px;
+            }
+
+            &__text {
+                padding-left: 70px;
+            }
+        }
+    }
+}

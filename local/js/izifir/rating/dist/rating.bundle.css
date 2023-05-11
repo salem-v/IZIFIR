@@ -1,0 +1,29 @@
+.rating {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #FFFFFF;
+  box-shadow: var(--main-shadow);
+  width: 60%;
+  padding: 20px 30px;
+  border-radius: 60px;
+  margin: 50px auto 0; }
+  .rating-item {
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    background-image: url("/local/templates/.default/assets/img/icons/star_rating.svg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    -webkit-filter: grayscale(1);
+    filter: grayscale(1); }
+    .rating-item.active {
+      -webkit-filter: grayscale(0);
+      filter: grayscale(0); }
+    .rating-item.static-active {
+      -webkit-filter: grayscale(0);
+      filter: grayscale(0); }
+  .rating__button {
+    margin-top: 80px;
+    text-align: center; }

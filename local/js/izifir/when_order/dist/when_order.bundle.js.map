@@ -1,0 +1,1 @@
+{"version":3,"file":"when_order.bundle.js","sources":["../src/when_order.js"],"sourcesContent":["import './style/style.scss'\r\n\r\nexport class WhenOrder\r\n{\r\n\tconstructor(options = {name: 'WhenOrder'})\r\n\t{\r\n\t}\r\n}"],"names":["options","name"],"mappings":"yDAIC,SAAYA,YAAAA,IAAAA,EAAU,CAACC,KAAM,aAE7B"}

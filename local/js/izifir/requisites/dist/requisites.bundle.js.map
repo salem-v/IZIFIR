@@ -1,0 +1,1 @@
+{"version":3,"file":"requisites.bundle.js","sources":["../src/requisites.js"],"sourcesContent":["import './style/style.scss'\nimport 'main.core'\n\nexport class Requisites\n{\n\tconstructor(options = {name: 'Requisites'})\n\t{\n\t}\n}"],"names":["options","name"],"mappings":"0DAKC,SAAYA,YAAAA,IAAAA,EAAU,CAACC,KAAM,cAE7B"}

@@ -1,0 +1,1 @@
+{"version":3,"file":"service_all.bundle.js","sources":["../src/service_all.js"],"sourcesContent":["import './style/style.scss'\r\n\r\nexport class ServiceAll\r\n{\r\n\tconstructor(options = {name: 'ServiceAll'})\r\n\t{\r\n\t}\r\n}"],"names":["options","name"],"mappings":"0DAIC,SAAYA,YAAAA,IAAAA,EAAU,CAACC,KAAM,cAE7B"}

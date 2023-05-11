@@ -1,0 +1,1 @@
+{"version":3,"file":"vacancy_contact.bundle.js","sources":["../src/vacancy_contact.js"],"sourcesContent":["import './style/style.scss'\nimport 'main.core'\n\nexport class VacancyContact\n{\n\tconstructor(options = {name: 'VacancyContact'})\n\t{\n\t}\n}"],"names":["options","name"],"mappings":"8DAKC,SAAYA,YAAAA,IAAAA,EAAU,CAACC,KAAM,kBAE7B"}

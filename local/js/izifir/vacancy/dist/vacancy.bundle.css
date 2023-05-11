@@ -1,0 +1,53 @@
+.vacancy {
+  background: var(--back-color); }
+  .vacancy .container {
+    position: relative;
+    z-index: 10; }
+    .vacancy .container .card {
+      position: relative;
+      height: calc(100% - 30px);
+      display: flex !important;
+      flex-wrap: wrap;
+      align-content: flex-start; }
+      .vacancy .container .card__title {
+        width: 100%; }
+      .vacancy .container .card__time {
+        color: #4270AD;
+        margin-right: 15px;
+        margin-top: 15px;
+        width: auto; }
+        .vacancy .container .card__time:nth-last-child(1) {
+          margin-right: 0; }
+        .vacancy .container .card__time p {
+          font-weight: 500;
+          font-size: .875rem;
+          line-height: 15px; }
+      .vacancy .container .card__request {
+        margin-top: 20px; }
+        .vacancy .container .card__request h4 {
+          font-weight: 700;
+          font-size: 1.125rem;
+          line-height: 160%; }
+        .vacancy .container .card__request__item {
+          margin-bottom: 15px; }
+          .vacancy .container .card__request__item:nth-last-child(1) {
+            margin-bottom: 0; }
+          .vacancy .container .card__request__item p {
+            font-weight: 500;
+            font-size: 1rem;
+            line-height: 160%; }
+      .vacancy .container .card__data {
+        position: absolute;
+        bottom: 30px;
+        color: #7E7E7E; }
+        .vacancy .container .card__data p {
+          font-size: 1rem; }
+      .vacancy .container .card__button {
+        margin-top: 60px;
+        margin-bottom: 30px;
+        text-align: right;
+        width: 100%; }
+        .vacancy .container .card__button .btn {
+          position: absolute;
+          right: 30px;
+          bottom: 35px; }

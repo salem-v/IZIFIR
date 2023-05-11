@@ -1,0 +1,1 @@
+{"version":3,"file":"promotion_case.bundle.js","sources":["../src/promotion_case.js"],"sourcesContent":["import './style/style.scss'\nimport 'main.core'\n\nexport class PromotionCase\n{\n\tconstructor(options = {name: 'PromotionCase'})\n\t{\n\t}\n}"],"names":["options","name"],"mappings":"6DAKC,SAAYA,YAAAA,IAAAA,EAAU,CAACC,KAAM,iBAE7B"}

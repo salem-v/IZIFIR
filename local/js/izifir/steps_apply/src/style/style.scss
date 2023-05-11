@@ -1,0 +1,82 @@
+.step_apply {
+  background: var(--back-color);
+  position: relative;
+
+  &::before {
+    content: url("/local/templates/.default/assets/img/background/apply_back.png");
+    position: absolute;
+    top: -545px;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    z-index: 1;
+  }
+
+  .card {
+    margin-right: 60px;
+    text-align: center;
+
+    &_wraper {
+      position: relative;
+
+      &::after {
+        content: url("/local/templates/.default/assets/img/icons/apply_arrow.svg");
+        position: absolute;
+        right: -12px;
+        top: 33%;
+      }
+
+      &:nth-last-child(1) {
+        &::after {
+          display: none;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1000px) {
+  .step_apply {
+    .row {
+      justify-content: center;
+    }
+
+    .card {
+      height: 90%;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .step_apply {
+    .card_wraper {
+      margin-bottom: 55px;
+
+      &::after {
+        right: 45%;
+        top: auto;
+        bottom: -55px;
+        transform: rotate(90deg);
+      }
+
+      .card {
+        margin-right: 0;
+
+        &__img {
+          margin-bottom: 20px;
+          max-height: 120px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .step_apply {
+    .card_wraper {
+      &::after {
+        right: 40%;
+      }
+    }
+  }
+}

@@ -1,0 +1,1 @@
+{"version":3,"file":"what_want.bundle.js","sources":["../src/what_want.js"],"sourcesContent":["import './style/style.scss'\nimport 'main.core'\n\nexport class WhatWant\n{\n\tconstructor(options = {name: 'WhatWant'})\n\t{\n\t}\n}"],"names":["options","name"],"mappings":"wDAKC,SAAYA,YAAAA,IAAAA,EAAU,CAACC,KAAM,YAE7B"}
