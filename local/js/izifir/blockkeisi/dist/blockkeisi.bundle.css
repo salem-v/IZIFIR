@@ -1,0 +1,223 @@
+.keisi__item .buttons__item {
+  line-height: 56px;
+  padding: 0 32px;
+  border-radius: 30px;
+  color: #fff;
+  background: #fff;
+  box-shadow: var(--main-shadow); }
+
+.keisi__item__title_preview, .keisi__item .item__title, .keisi__item .item__category {
+  font-weight: 700;
+  font-size: 1.625rem;
+  line-height: 160%; }
+
+.keisi {
+  background-color: var(--back-color);
+  padding-top: 85px;
+  position: relative; }
+  .keisi::after {
+    content: url(/local/templates/.default/assets/img/background/background-keis.png);
+    position: absolute;
+    left: 0;
+    top: -440px;
+    width: 100%;
+    overflow: hidden; }
+  .keisi::before {
+    content: url(/local/templates/.default/assets/img/background/line-back-keis.png);
+    position: absolute;
+    right: 0;
+    top: -555px;
+    z-index: 1;
+    height: -webkit-fill-available;
+    overflow: hidden; }
+  .keisi__title {
+    margin-bottom: 60px; }
+  .keisi__item {
+    height: 490px;
+    transition: all 0.8s ease; }
+    .keisi__item:hover {
+      margin-top: -5px;
+      height: 500px;
+      margin-bottom: 0;
+      -webkit-transform: scale(1.02);
+              transform: scale(1.02); }
+    .keisi__item__title_preview {
+      margin-bottom: 20px; }
+    .keisi__item__text_preview {
+      line-height: 160%; }
+    .keisi__item .item__title {
+      color: #959595;
+      display: block; }
+    .keisi__item .item__category {
+      color: #3F4347;
+      display: block; }
+    .keisi__item .item__text {
+      display: block;
+      transition: 1s;
+      height: 230px;
+      font-weight: 600;
+      font-size: 1.125rem;
+      line-height: 160%;
+      margin-bottom: 60px; }
+      .keisi__item .item__text p {
+        padding: 0;
+        margin-bottom: 20px; }
+    .keisi__item .item__price {
+      font-size: 1.375rem;
+      line-height: 160%; }
+    .keisi__item .item__button_close {
+      display: none; }
+    .keisi__item .item__button_open {
+      display: none; }
+    .keisi__item .item__buttons {
+      display: flex;
+      height: 56px;
+      margin-top: 25px; }
+    .keisi__item .buttons__item {
+      height: 100%;
+      margin-right: 20px; }
+      .keisi__item .buttons__item:hover {
+        background: #fff;
+        box-shadow: var(--shadow-hover); }
+        .keisi__item .buttons__item:hover a {
+          background: var(--line-gr-back-btn);
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+          mix-blend-mode: inherit; }
+      .keisi__item .buttons__item:hover:active {
+        background: var(--line-gr-back-btn);
+        box-shadow: var(--main-shadow); }
+        .keisi__item .buttons__item:hover:active a {
+          mix-blend-mode: plus-lighter; }
+      .keisi__item .buttons__item .item__link {
+        font-weight: 700;
+        font-size: 1rem;
+        line-height: 20px;
+        text-decoration: none;
+        background: var(--line-gr-back-btn);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        mix-blend-mode: inherit; }
+  .keisi__button {
+    text-align: center;
+    margin-top: 60px !important; }
+  .keisi.service {
+    padding-top: 120px; }
+    .keisi.service::before {
+      content: url(/local/templates/.default/assets/img/background/keisi-service-back.png);
+      position: absolute;
+      left: 0;
+      right: auto;
+      top: 20px;
+      width: 100%;
+      overflow: unset; }
+    .keisi.service::after {
+      display: none; }
+  .keisi.case_all {
+    margin-bottom: 60px; }
+  .keisi .card {
+    position: relative;
+    height: 100%; }
+    .keisi .card__img {
+      max-height: 270px; }
+  .keisi .item__title_preview {
+    min-height: 55px; }
+
+@media (min-width: 768px) {
+  .keisi__item:hover {
+    margin-top: 0; } }
+
+@media (max-width: 1260px) {
+  .keisi__item {
+    height: 400px; }
+    .keisi__item:hover {
+      margin-top: -5px; }
+  .keisi .card__img {
+    max-height: 180px; } }
+
+@media (max-width: 768px) {
+  .keisi {
+    padding-top: 20px; }
+    .keisi.service {
+      padding-top: 60px; }
+    .keisi__item {
+      transition: none;
+      height: auto;
+      position: relative; }
+      .keisi__item .item__buttons {
+        display: flex;
+        height: auto;
+        margin-top: 25px;
+        flex-wrap: wrap;
+        justify-content: space-between; }
+      .keisi__item .buttons__item {
+        height: 100%;
+        margin-right: 0;
+        margin-bottom: 20px; }
+        .keisi__item .buttons__item:nth-last-child(1) {
+          margin-bottom: 0; }
+      .keisi__item .item__text {
+        height: auto;
+        font-size: 1rem;
+        margin-bottom: 30px; }
+      .keisi__item:hover {
+        height: auto;
+        -webkit-transform: none;
+                transform: none;
+        margin-top: 0; }
+    .keisi .item__button {
+      display: block;
+      text-align: center;
+      margin: 15px 0; }
+      .keisi .item__button_close {
+        position: absolute;
+        top: 0;
+        right: 20px; }
+        .keisi .item__button_close .btn {
+          padding: 0;
+          width: 30px;
+          height: 30px;
+          display: flex;
+          justify-content: center;
+          align-items: center; }
+        .keisi .item__button_close img {
+          -webkit-transform: rotate(45deg);
+                  transform: rotate(45deg); }
+    .keisi .item__title {
+      font-size: 1.375rem; }
+      .keisi .item__title_preview {
+        min-height: auto;
+        margin-bottom: 15px; }
+    .keisi .item__category {
+      font-size: 1.25rem; }
+    .keisi .item__text {
+      height: auto; }
+    .keisi .card__img {
+      max-height: 220px; }
+    .keisi__button {
+      margin-top: 30px !important; } }
+
+@media (max-width: 480px) {
+  .keisi__item .item__buttons {
+    margin-top: 15px;
+    display: flex; }
+  .keisi__item .buttons__item {
+    width: -webkit-fit-content;
+    width: fit-content;
+    margin: 0 auto 10px; }
+  .keisi__item .item__text {
+    font-size: .875rem;
+    margin-bottom: 20px; }
+  .keisi .item__title {
+    font-size: 1.25rem; }
+    .keisi .item__title_preview {
+      min-height: auto;
+      margin-bottom: 10px; }
+  .keisi .item__category {
+    font-size: 1.125rem; }
+  .keisi .card__img {
+    max-height: 180px; } }
+
+@media (max-width: 375px) {
+  .keisi .card__img {
+    max-height: 140px; } }

@@ -1,0 +1,2 @@
+this.BX=this.BX||{},function(e,i){"use strict";e.Blockklientmain=function(){this.swiper=i.Swiper.init(".swiper-container",{slidesPerView:2,spaceBetween:30,loop:!0,autoplay:{delay:1,disableOnInteraction:!0},freeMode:!0,speed:5e3,freeModeMomentum:!1,breakpoints:{320:{slidesPerView:2},480:{slidesPerView:3},768:{slidesPerView:5},1e3:{slidesPerView:7}}}),this.swiper[1]&&this.swiper[1].changeLanguageDirection("rtl")}}(this.BX.Izifir=this.BX.Izifir||{},BX.Izifir);
+//# sourceMappingURL=blockklientmain.bundle.js.map

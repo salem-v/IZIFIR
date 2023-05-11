@@ -1,0 +1,1 @@
+{"version":3,"file":"blockinfomain.bundle.js","sources":["../src/blockinfomain.js"],"sourcesContent":["import './style/style.scss';\r\n\r\nexport class Blockinfomain\r\n{\r\n\tconstructor(options = {name: 'Blockinfomain'})\r\n\t{\r\n\t}\r\n}"],"names":["options","name"],"mappings":"6DAIC,SAAYA,YAAAA,IAAAA,EAAU,CAACC,KAAM,iBAE7B"}

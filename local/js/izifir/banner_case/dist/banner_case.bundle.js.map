@@ -1,0 +1,1 @@
+{"version":3,"file":"banner_case.bundle.js","sources":["../src/banner_case.js"],"sourcesContent":["import './style/style.scss';\n\nexport class BannerCase\n{\n\tconstructor(options = {name: 'BannerCase'})\n\t{\n\t}\n}"],"names":["options","name"],"mappings":"0DAIC,SAAYA,YAAAA,IAAAA,EAAU,CAACC,KAAM,cAE7B"}

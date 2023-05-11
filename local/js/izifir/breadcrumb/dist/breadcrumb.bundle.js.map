@@ -1,0 +1,1 @@
+{"version":3,"file":"breadcrumb.bundle.js","sources":["../src/breadcrumb.js"],"sourcesContent":["import './style/style.scss'\n\nexport class Breadcrumb\n{\n\tconstructor()\n\t{\n\t}\n}"],"names":[],"mappings":"0DAIC"}

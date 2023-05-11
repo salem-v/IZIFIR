@@ -1,0 +1,1 @@
+{"version":3,"file":"banner-advantage.bundle.js","sources":["../src/banner-advantage.js"],"sourcesContent":["import './style/style.scss';\r\n\r\nexport class BannerAdvantage\r\n{\r\n\tconstructor()\r\n\t{\r\n\t}\r\n}"],"names":[],"mappings":"+DAIC"}

@@ -1,0 +1,37 @@
+.breadcrumb {
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 150%;
+  padding-top: 70px;
+  padding-bottom: 55px;
+  position: relative;
+  z-index: 9; }
+  .breadcrumb__case {
+    padding-top: 35px;
+    padding-bottom: 60px; }
+  .breadcrumb .link {
+    color: #6D6D6D;
+    padding-right: 10px;
+    margin-right: 10px;
+    position: relative; }
+    .breadcrumb .link:after {
+      content: url("/local/templates/.default/assets/img/icons/arrow-breadcrumd.svg");
+      position: absolute;
+      right: -5px;
+      top: -2px; }
+    .breadcrumb .link_active {
+      color: #3D3D3D; }
+      .breadcrumb .link_active:after {
+        display: none; }
+  .breadcrumb .title {
+    margin-top: 50px; }
+
+@media (max-width: 1260px) {
+  .breadcrumb {
+    padding-top: 45px;
+    padding-bottom: 30px; } }
+
+@media (max-width: 768px) {
+  .breadcrumb {
+    padding: 35px 0;
+    font-size: 13px; } }

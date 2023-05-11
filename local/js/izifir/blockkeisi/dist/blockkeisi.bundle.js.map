@@ -1,0 +1,1 @@
+{"version":3,"file":"blockkeisi.bundle.js","sources":["../src/blockkeisi.js"],"sourcesContent":["import './style/style.scss';\r\n\r\nexport class Blockkeisi\r\n{\r\n\tconstructor(options = {name: 'Blockkeisi'})\r\n\t{\r\n\t}\r\n}"],"names":["options","name"],"mappings":"0DAIC,SAAYA,YAAAA,IAAAA,EAAU,CAACC,KAAM,cAE7B"}

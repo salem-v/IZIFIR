@@ -1,0 +1,1 @@
+{"version":3,"file":"banner_request.bundle.js","sources":["../src/banner_request.js"],"sourcesContent":["import './style/style.scss'\nimport 'main.core'\n\nexport class BannerRequest\n{\n\tconstructor(options = {name: 'BannerRequest'})\n\t{}\n}"],"names":["options","name"],"mappings":"6DAKC,SAAYA,YAAAA,IAAAA,EAAU,CAACC,KAAM,iBAC5B"}

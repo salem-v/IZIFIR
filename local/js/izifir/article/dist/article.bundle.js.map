@@ -1,0 +1,1 @@
+{"version":3,"file":"article.bundle.js","sources":["../src/article.js"],"sourcesContent":["import './style/style.scss'\nimport 'main.core'\n\nexport class Article\n{\n\tconstructor(options = {name: 'Article'})\n\t{\n\t}\n}"],"names":["options","name"],"mappings":"uDAKC,SAAYA,YAAAA,IAAAA,EAAU,CAACC,KAAM,WAE7B"}

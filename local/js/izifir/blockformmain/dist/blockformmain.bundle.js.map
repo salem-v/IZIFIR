@@ -1,0 +1,1 @@
+{"version":3,"file":"blockformmain.bundle.js","sources":["../src/blockformmain.js"],"sourcesContent":["import './style/style.scss';\r\n\r\nexport class Blockformmain\r\n{\r\n\tconstructor(options = {name: 'Blockformmain'})\r\n\t{\r\n\t}\r\n}"],"names":["options","name"],"mappings":"6DAIC,SAAYA,YAAAA,IAAAA,EAAU,CAACC,KAAM,iBAE7B"}

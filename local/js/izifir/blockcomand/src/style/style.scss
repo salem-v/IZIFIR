@@ -1,0 +1,201 @@
+%hover-effect {
+    background: var(--line-gr-back);
+    box-shadow: var(--shadow-hover);
+}
+%text-gr {
+    background: var(--line-gr-back-btn);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+.comand {
+    background-color: var(--back-color);
+    padding-top: 120px;
+    position: relative;
+
+    &::before {
+        content: url(/local/templates/.default/assets/img/background/comand_before.png);
+        width: 100%;
+        position: absolute;
+        right: 0;
+        top: -295px;
+        overflow: hidden;
+    }
+
+    &::after {
+        content: url(/local/templates/.default/assets/img/background/comand_line.png);
+        position: absolute;
+        left: 0;
+        top: -475px;
+        overflow: hidden;
+        z-index: 1;
+    }
+
+    &.service_back {
+        padding-bottom: 90px;
+
+        &::before {
+            content: url("/local/templates/.default/assets/img/background/comand-service-back.png");
+            width: 100%;
+            position: absolute;
+            right: 0;
+            top: -275px;
+            overflow: hidden;
+            z-index: 1;
+        }
+
+        &::after {
+            display: none;
+        }
+    }
+
+    &__title {
+        margin-bottom: 75px;
+    }
+
+    &__item {
+        //width: calc(100%/5) !important;
+        margin-bottom: 25px;
+        height: 100%;
+
+        .item {
+            &__back {
+                background: var(--line-gr-back-card);
+                box-shadow: -0.5px -0.5px 1px #ffffff, -2px -2px 19px #ffffff, 0.5px 0.5px 7.5px #d5c7bd, 3px 3px 6px #e0dad6, 2px -3px 5px #eee7e2;
+                border-radius: var(--border-radius);
+                padding-bottom: 20px;
+                height: 280px;
+            }
+
+            &__img {
+                width: 100%;
+                object-fit: cover;
+                border-radius: 20px 20px 0 0;
+                margin-bottom: 15px;
+            }
+
+            &__title {
+                padding: 0 25px;
+                font-weight: 600;
+                font-size: 1.125rem;
+                line-height: 133%;
+                margin-top: 0;
+            }
+
+            &__spec {
+                padding: 0 25px;
+                font-weight: 500;
+                font-size: 0.75rem;
+                line-height: 133%;
+                height: 35px;
+            }
+        }
+    }
+
+    &__description {
+        background: var(--line-gr-back-card);
+        box-shadow: var(--main-shadow);
+        border-radius: var(--border-radius);
+        height: calc(100% - 25px);
+        padding: 45px 20px;
+        position: relative;
+
+        .description {
+            &__text {
+                font-weight: 400;
+                font-size: 1.125rem;
+                line-height: 160%;
+                color: var(--text-color-main);
+                p {
+                    margin-bottom: 30px;
+                }
+            }
+
+            &__button {
+                position: absolute;
+                bottom: 60px;
+                right: 20px;
+            }
+        }
+    }
+
+    &__button {
+        text-align: right;
+        margin-top: 60px;
+    }
+
+    .slick-slide {
+        padding: 10px 10px 10px 5px;
+    }
+}
+
+@media (max-width: 1400px) {
+    .comand {
+        &:before {
+            width: 100%;
+        }
+
+        &:after {
+            width: 100%;
+        }
+    }
+}
+
+@media (max-width: 1260px) {
+    .comand {
+        padding-top: 60px;
+    }
+}
+
+@media (max-width: 768px) {
+    .comand {
+        &__description {
+            height: calc(100% - 50px);
+            margin-top: 75px;
+
+            .description__button {
+                position: relative;
+                display: inline-flex;
+                margin-top: 57px;
+                margin-left: 20px;
+            }
+        }
+
+        &__button {
+            text-align: right;
+            margin-top: 60px;
+            position: absolute;
+            top: 58%;
+        }
+    }
+}
+
+@media (max-width: 480px) {
+    .comand {
+        &__description {
+            height: auto;
+
+            .description__button {
+                position: relative;
+                display: inline-flex;
+                margin-top: 0;
+                margin-left: 20px;
+                bottom: 0;
+            }
+        }
+
+        &__title {
+            margin-bottom: 30px;
+        }
+    }
+}
+
+@media (max-width: 400px) {
+    .comand {
+        &__button {
+            top: 56%;
+        }
+    }
+}

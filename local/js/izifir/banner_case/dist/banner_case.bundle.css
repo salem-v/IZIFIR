@@ -1,0 +1,15 @@
+.banner_case {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  z-index: 9; }
+  .banner_case img {
+    width: 100%;
+    height: 400px; }
+
+@media (max-width: 576px) {
+  .banner_case {
+    height: 51.39vw; }
+    .banner_case img {
+      width: 100%;
+      height: 51.39vw; } }

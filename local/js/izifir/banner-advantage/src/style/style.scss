@@ -1,0 +1,215 @@
+$shadow-main: -0.5px -0.5px 1px #FFFFFF, -2px -2px 19px #FFFFFF, 0.5px 0.5px 7.5px #D5C7BD, 3px 3px 6px #E0DAD6, 12px 12px 26px #EEE7E2;
+%hover-effect {
+    background: var(--line-gr-back);
+    box-shadow: var(--shadow-hover);
+}
+
+.banner-adv-background {
+    position: relative;
+    background-color: var(--back-color);
+
+    &::after {
+        content: url("/local/templates/.default/assets/img/background/line-back-banner.png");
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+
+    .back_service {
+        &::after {
+            content: url("/local/templates/.default/assets/img/background/avd-service-after.png");
+            position: absolute;
+            bottom: 45px;
+            left: 0;
+            width: 721px;
+            height: 605px;
+            z-index: 3;
+        }
+    }
+}
+.banner {
+    background-image: url(/local/templates/.default/assets/img/background/banner_background.png);
+    height: 100%;
+    padding: 55px 0;
+    position: relative;
+    box-shadow: var(--main-shadow);
+
+    &::before {
+        content: '';
+        background: url(/local/templates/.default/assets/img/background/banner_before.png);
+        position: absolute;
+        left: 0;
+        bottom: -250px;
+        width: 525px;
+        height: 924px;
+        z-index: 1;
+    }
+
+    &__text {
+        background: linear-gradient(137.62deg, #FFFFFF 1.27%, rgba(255, 255, 255, 0.1) 112.55%);
+        backdrop-filter: blur(4px);
+        border-radius: var(--border-radius);
+        padding: 40px 90px 40px 25px;
+        //margin-bottom: 60px;
+        position: relative;
+        z-index: 10;
+        height: 100%;
+
+        .text {
+            &__title {
+                margin-bottom: 20px;
+                font-weight: 700;
+                line-height: 130%;
+
+                &:after {
+                    display: none;
+                }
+            }
+            &__text {
+                font-weight: 500;
+                font-size: 1.625rem;
+                line-height: 150%;
+            }
+        }
+    }
+
+    .form {
+        width: 70%;
+        position: relative;
+        z-index: 10;
+        padding-left: 15px;
+        margin-top: 60px;
+
+        &__input {
+            margin-right: 30px;
+        }
+
+        .privacy {
+            margin-top: 5px;
+        }
+    }
+
+    &__img {
+        width: 100%;
+        height: 100%;
+        position: relative;
+
+        img {
+            position: absolute;
+            top: 0;
+            left: 35px;
+        }
+    }
+
+    &__form {
+        .form__inp-wrap {
+            margin-top: 0;
+        }
+    }
+}
+
+@media (max-width: 1490px) {
+    .banner-adv-background {
+        &::after {
+            width: 100%;
+            overflow: hidden;
+        }
+    }
+
+    .banner {
+        &__img {
+            img {
+                left: 5px;
+                object-fit: contain;
+                width: 100%;
+            }
+        }
+
+        &::before {
+            overflow: hidden;
+        }
+    }
+}
+@media (max-width: 1230px) {
+    .banner {
+        &__text {
+            margin-bottom: 35px;
+        }
+
+        .form {
+            width: 80%;
+            margin-top: 40px;
+        }
+    }
+}
+@media (max-width: 1200px) {
+    .banner {
+        &__text {
+            padding: 25px;
+        }
+
+        &__img {
+            margin-top: 30px;
+        }
+
+        img {
+            position: relative;
+        }
+
+        .form {
+            width: 100%;
+
+            .btn {
+                margin-top: 30px;
+            }
+        }
+        &__text {
+            margin-bottom: 0;
+        }
+    }
+}
+@media (max-width: 768px) {
+    .banner {
+        height: 100%;
+        padding-bottom: 30px;
+        background-size: cover;
+        background-repeat: no-repeat;
+
+        &__text {
+            padding: 20px;
+
+            .text__text {
+                font-size: 1.125rem;
+            }
+        }
+
+        .form {
+            text-align: center;
+            padding-right: 0;
+
+            &__input {
+                margin-right: 0;
+            }
+
+            .privacy {
+                padding-bottom: 20px;
+            }
+        }
+    }
+}
+@media (max-width: 475px) {
+    .banner {
+        &::before {
+            width: 100%;
+            overflow: hidden;
+        }
+
+        &__text {
+            padding: 10px 15px;
+
+            .text__text {
+                font-size: 1rem;
+            }
+        }
+    }
+}

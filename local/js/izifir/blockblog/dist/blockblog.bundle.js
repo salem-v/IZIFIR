@@ -1,0 +1,2 @@
+this.BX=this.BX||{},function(i,e,s){"use strict";i.Blockblog=function(i){void 0===i&&(i={name:"Blockblog"}),this.swiper=s.Swiper.init(".swiper-blog",{slidesPerView:5,loop:!0,navigation:{nextEl:".swiper-button-next",prevEl:".swiper-button-prev"},breakpoints:{320:{slidesPerView:1.2},768:{slidesPerView:2},1e3:{slidesPerView:3},1200:{slidesPerView:3}}})}}(this.BX.Izifir=this.BX.Izifir||{},BX,BX.Izifir);
+//# sourceMappingURL=blockblog.bundle.js.map

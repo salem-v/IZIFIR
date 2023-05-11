@@ -1,0 +1,57 @@
+.klient {
+  padding-top: 120px;
+  background: var(--back-color);
+  position: relative; }
+  .klient .fluid {
+    margin-top: 60px;
+    position: relative;
+    z-index: 10; }
+  .klient .first_line {
+    display: flex;
+    white-space: nowrap;
+    overflow: hidden;
+    margin-bottom: 100px; }
+    .klient .first_line .scrolling {
+      margin: 0 20px; }
+  .klient .second_line {
+    display: flex;
+    white-space: nowrap;
+    overflow: hidden; }
+    .klient .second_line .scrolling {
+      margin: 0 20px; }
+  .klient .swiper-container {
+    width: 100%;
+    height: 100%; }
+  .klient .swiper-wrapper {
+    height: 60px; }
+  .klient .swiper-slide {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .klient .swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      -o-object-fit: contain;
+         object-fit: contain; }
+  .klient.service_back::before {
+    content: url("/local/templates/.default/assets/img/background/client-service-back.png");
+    position: absolute;
+    top: -260px;
+    right: 0;
+    z-index: 3; }
+
+@media (max-width: 1260px) {
+  .klient {
+    padding-top: 60px; } }
+
+@media (max-width: 768px) {
+  .klient {
+    padding-top: 40px; }
+    .klient .first_line {
+      margin-bottom: 0; }
+    .klient .fluid {
+      margin-top: 40px; }
+    .klient .swiper-wrapper {
+      height: 40px; } }

@@ -1,0 +1,93 @@
+.klient {
+    padding-top: 120px;
+    background: var(--back-color);
+    position: relative;
+
+    .fluid {
+        margin-top: 60px;
+        position: relative;
+        z-index: 10;
+    }
+
+    .first_line {
+        display: flex;
+        white-space: nowrap;
+        overflow: hidden;
+        margin-bottom: 100px;
+
+        .scrolling {
+            margin: 0 20px;
+        }
+    }
+
+    .second_line {
+        display: flex;
+        white-space: nowrap;
+        overflow: hidden;
+
+        .scrolling {
+            margin: 0 20px;
+        }
+    }
+
+    .swiper {
+        &-container {
+            width: 100%;
+            height: 100%;
+        }
+
+        &-wrapper {
+            height: 60px;
+        }
+
+        &-slide {
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            img {
+                display: block;
+                width: 100%;
+                height: 100%;
+                object-fit: contain;
+            }
+        }
+    }
+
+    &.service_back {
+        &::before {
+            content: url("/local/templates/.default/assets/img/background/client-service-back.png");
+            position: absolute;
+            top: -260px;
+            right: 0;
+            z-index: 3;
+        }
+    }
+}
+
+@media (max-width: 1260px) {
+    .klient {
+        padding-top: 60px;
+    }
+}
+
+@media (max-width: 768px) {
+    .klient {
+        padding-top: 40px;
+
+        .first_line {
+            margin-bottom: 0;
+        }
+
+        .fluid {
+            margin-top: 40px;
+        }
+
+        .swiper {
+            &-wrapper {
+                height: 40px;
+            }
+        }
+    }
+}
