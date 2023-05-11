@@ -1,0 +1,61 @@
+.add_case {
+  background-color: var(--back-color);
+  position: relative; }
+  .add_case:before {
+    content: url("/local/templates/.default/assets/img/background/add_case_back.png");
+    position: absolute;
+    top: -1255px;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    z-index: 1; }
+  .add_case .row {
+    align-items: center; }
+  .add_case .check_list__item {
+    position: relative;
+    font-weight: 600;
+    font-size: 1.375rem;
+    line-height: 120%;
+    padding-left: 70px;
+    margin-bottom: 40px; }
+    .add_case .check_list__item:before {
+      content: url("/local/templates/.default/assets/img/icons/check_list.svg");
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 45px;
+      height: 45px;
+      border-radius: 57px;
+      box-shadow: var(--main-shadow); }
+  .add_case .check_list__button {
+    padding-top: 20px; }
+  .add_case .swiper {
+    width: 100%;
+    height: 100%;
+    padding-top: 15px; }
+    .add_case .swiper .swiper-slide__img img {
+      width: 100%;
+      height: 100%;
+      -o-object-fit: cover;
+         object-fit: cover;
+      border-radius: var(--border-radius); }
+  .add_case .add_case__button {
+    text-align: center;
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 35px;
+    z-index: 10;
+    margin-right: 25px; }
+    .add_case .add_case__button .button__arrow {
+      position: absolute;
+      right: 0;
+      top: 0;
+      display: flex; }
+
+@media (max-width: 1200px) {
+  .add_case .swiper img {
+    width: 100%; } }
+
+@media (max-width: 768px) {
+  .add_case .check_list {
+    margin-bottom: 60px; } }

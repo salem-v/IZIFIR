@@ -1,0 +1,21 @@
+.adaptive {
+  background-color: var(--back-color);
+  position: relative; }
+  .adaptive:after {
+    content: url("/local/templates/.default/assets/img/background/adaptation_after.png");
+    position: absolute;
+    top: -250px;
+    right: 0;
+    z-index: 1; }
+  .adaptive img {
+    width: 100%;
+    -o-object-fit: contain;
+       object-fit: contain; }
+
+@media (max-width: 1260px) {
+  .adaptive {
+    padding-bottom: 0 !important; } }
+
+@media (max-width: 768px) {
+  .adaptive img {
+    height: 100%; } }
