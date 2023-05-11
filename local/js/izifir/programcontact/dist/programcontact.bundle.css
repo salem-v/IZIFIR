@@ -1,0 +1,94 @@
+.program_contact {
+  position: relative;
+  background: #fff;
+  padding-top: 25px;
+  overflow: hidden; }
+  .program_contact:before {
+    content: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDk2IiBoZWlnaHQ9IjcwMSIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBvcGFjaXR5PSIuMTUiIHN0cm9rZS13aWR0aD0iMS41IiBzdHJva2UtbWl0ZXJsaW1pdD0iMjIuOTI2Ij48cGF0aCBkPSJNLTc1LjQ5OC0xNDAuNzA5Qy0zOS4wMzgtNDAuNjcyIDU4LjQ3MiA1Mi4yMiA4NC41OTUgNzYuOTM0YzQzLjU0OSA0MS4yMDEgMTk0LjQ4MyAxNTEuMjYyIDIxOC43MjggMTY3LjkzNSAxMTkuNzA0IDgyLjMyNSAyNDguMDExIDE5My4wOTQgMTU5LjMyNCAzMjcuMzcxIiBzdHJva2U9IiNEOURBREEiLz48cGF0aCBkPSJNLTEwOC40OS0xNDEuODQ5Qy04NC45MTYtNzMuOTE5IDE0LjUwMiAzMy4yMTggMjkuNTQgNDQuODQ0IDg2LjIyNyAxMDQuNTI4IDI5OS4wODMgMjUwLjY5OCAzMjAuNDQzIDI3MC4xIDM5My44NiAzMjguMDUxIDYzMi4xNzkgNTIxLjUgMjQxLjE3OSA5MTUiIHN0cm9rZT0iI0M1QzZDNiIvPjxwYXRoIGQ9Ik0tMTM5LjE1Mi0xMzkuNTk5Qy0xMTMuNDk0LTgyLjU0MS00NC4wMDMtMS43Ny43OTkgMzcuNTMxYzQ1Ljc0NyA0MC4xMjcgMTM4LjY4MiAxMDkuOTc1IDE1Ny44NjcgMTI0Ljk4MkMyNTEuODUzIDIzNS40MDQgNjg1LjY3OCA0MjkuNSAxNDYuMTc4IDkyMyIgc3Ryb2tlPSIjQjJCM0IzIi8+PHBhdGggZD0iTS0xNzAuNjgtMTQyLjIwMmMyMC42MTYgNDAuODU4IDg2LjczIDEyNC42MzQgMTIyLjM1MyAxNTIuODI2IDMzLjcyMiAzNC40MDEgMTE4LjYyIDk4LjAxNSAxMTguNjIgOTguMDE1IDY4LjAzMiA0Ny4xOTEgMjQ0LjY0MSAxNzQuMjY3IDI3MS40NDEgMjI3Ljc5QzM1My4wMDYgMzU4Ljk0MSA0NjYuMTc5IDUzMy41IDExLjE3OSA5NjEuNSIgc3Ryb2tlPSIjOUQ5RTlFIi8+PHBhdGggZD0iTS0yMDAtMTQyLjM2OWMxMC4yNjMgMjguMzU5IDczLjQzOSA5OC45MSAxMDcuODUgMTMxLjIxQy01MC43NjggMjcuNjggMzYuMzggOTUuMzA5IDU1LjU5NCAxMDkuMWMxOS4yMTQgMTMuNzkzIDE0Ny4wOTcgMTA2LjQ1IDE1Mi4zIDExMi4xNjIgMTIuNzQgMTMuOTkgMTQzLjUzOSAxMDMuMzg1IDExNy41MTYgMjEwLjAwNi0zMi42MzcgMTMzLjcyNS0xMzguNjYyIDMyMS4wNy01NjUuMDU2IDYyNS45NDEiIHN0cm9rZT0iIzg5ODk4OSIvPjxwYXRoIGQ9Ik0tMjI5LjI4Ny0xNDIuNTM1YzI2Ljk2MyAzOS45NTcgNTguNDM1IDc2LjQwMyA5NS4wNDggMTExLjcyMkMtNjkuNDUxIDMxLjY4NiAxLjYyMSA4Mi42MzUgNzEuNjExIDEzMS4wNjJjMTIxLjQyNCA4NC4wMTggMTk0LjQwNiAxNTIuNjc5IDIxMC40OTIgMjEzLjk1NSAyMS41OCA4Mi4yIDE3LjExNyAyMTMuMjc3LTUwMy40NjEgNjQ1LjkyMSIgc3Ryb2tlPSIjNzM3MzcyIi8+PHBhdGggZD0iTS0yNTAuNzI2LTEzMy43MTFjMzEuNzY0IDM5LjEzOCA2NS4yMDcgNzUuOTE2IDEwMS43MjIgMTA3LjUyQy0xMTUuNzcyIDIuNTc1LTgyLjU2IDMwLjM1LTQ3LjcxOSA1NS42MzRjNDIuNDg2IDMwLjgzIDg1LjI2MyA2MS41MTYgMTI3Ljk4NSA5Mi42MjUgNzguMDUgNTYuODM1IDEyNi4yNTQgMTA2LjA3MSAxNDcuNTk1IDE0Ni4xNSA1NC42MyAxMDIuNTk3LTM1LjY2MiAyOTIuMzM5LTQxMy4yMTYgNTkyLjIyOSIgc3Ryb2tlPSIjNUI1QjVCIi8+PHBhdGggZD0iTS0yNTEuMzU4LTEwNC41NThjNDcgNDguODY2IDk1LjMyNSA5Mi4xNCAxNTAuMDUgMTMxLjc4MUw0Mi43OSAxMzEuNjAyYzYzLjc3MiA0Ni4xOTQgMTEzLjY2OSA5MS41MjkgMTQxLjEwNyAxMzcuOTUgNTEuMTA1IDg2LjQ2Mi0xLjAyNyAxODEuMDIzLTc3LjAzOCAyNjYuNDU0LTE3LjYyNiAxOS44MS0yMTkuNjk1IDIwMy42NDYtMzM1LjQxNCAzMDkuMDczIiBzdHJva2U9IiMyQjJBMjkiLz48cGF0aCBkPSJNLTI1MS40ODYtODIuMTY1YzU0Ljg2NSA0OC4zMjQgMTExLjk5MiA5My43NCAxNzIuNDMgMTM2LjI2MiA2NC4yOTUgNDUuMjM3IDEzMy4zMTggOTIuMTM1IDE5MC4xODIgMTUzLjQ2OEMyMjUuODEgMzMxLjI2IDE0MS45OCA0NDEuOTk2IDE5LjAzMyA1NTAuODc4IDExLjk4IDU1Ny4xMjQtMjAyLjUyOCA3NzUuNjYtMzE2Ljc4NiA4NDIuODMiIHN0cm9rZT0iIzcyNzI3MSIvPjxwYXRoIGQ9Ik0tMjUwLjYxMS02NC40MzJjMjUuMDEzIDIwLjc3NyA1Ni42NjUgNDcuODI2IDkyLjc3IDcyLjg0OEMtNC4xMzUgMTE0Ljk0IDI1Ljk1MSAxNDUuNDU5IDU0LjM4NCAxNzIuNTY3YzE0NS4wNDUgMTM4LjI4NyA0Ny4yMzkgMjYzLjk3LTExMS44NTggMzg5Ljg4My0yLjg1OSAyLjI2My0xNDUuMTg2IDEyNy4wMzUtMTk5Ljg2NSAxNjcuNDc5IiBzdHJva2U9IiM4OTg5ODkiLz48cGF0aCBkPSJNLTI0OS45OTYtNTEuNDJsMTM4LjA5MiAxMDAuOTI1QzI3Ljc0NCAxNTEuNTY2IDgzLjk2OSAyMTAuODA4IDg1LjI5MyAyODIuOTM4IDg3LjI4OCAzOTEuNjgxLTk4LjUxIDUzOC44ODUtOTguNTEgNTM4Ljg4NVMtMjE2Ljk2IDYzMi40NzQtMjYzLjQ5NSA2NjMuMzIiIHN0cm9rZT0iIzlEOUU5RSIvPjxwYXRoIGQ9Ik0tMjUxLjczNS0zOC4zMTNDLTE5My40MiAyLjgxLTEzNS44ODQgNDMuOTg1LTgwLjc5NSA4Ni43NDQgMjUuMTM0IDE2OC45NyA4My4wOSAyNTguOTM1IDExLjI2MSAzNjkuMDMtMzQuMzMxIDQzOC45MS0xNzUuNDQzIDU1My41Mi0xNzUuNDQzIDU1My41MnMtNDUuOTM0IDM0Ljc1My03OS4wMjcgNTQuNDc1IiBzdHJva2U9IiNCMkIzQjMiLz48cGF0aCBkPSJNLTI1MS44LTI2LjgwNUMtMTAyLjM5NCA3My4yOTMtMjguOTM2IDE0Ny4zMjYtMTAuMTU2IDE5NS42ODQgNDAuMDI2IDMyNC45MDUtODcuNDIgNDQ5LjA0MS0yNTUuMTM4IDU2MS4yNjgiIHN0cm9rZT0iI0M1QzZDNiIvPjwvZz48L3N2Zz4=");
+    position: absolute;
+    top: 0;
+    left: 0; }
+  .program_contact__row {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap; }
+  .program_contact__title {
+    font-size: 3.625rem;
+    font-weight: 700;
+    line-height: 115%;
+    margin-bottom: 1.2em; }
+    .program_contact__title span:before {
+      background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzIxIiBoZWlnaHQ9IjcxIiBmaWxsPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxyZWN0IHg9Ii4xMDQiIHk9Ii40NTIiIHdpZHRoPSIzMjAiIGhlaWdodD0iNzAiIHJ4PSI3IiBmaWxsPSJ1cmwoI3BhaW50MF9saW5lYXJfMzA5XzE1OTYpIi8+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJwYWludDBfbGluZWFyXzMwOV8xNTk2IiB4MT0iMTYwLjEwNCIgeTE9Ii40NTIiIHgyPSIxNjAuMTA0IiB5Mj0iNzAuNDUyIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+PHN0b3Agc3RvcC1jb2xvcj0iI0Y1NkZCMyIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI0ZGOUE1QyIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjwvc3ZnPg==");
+      width: 6em;
+      height: 1.2em;
+      right: -39px;
+      bottom: -1px; }
+  .program_contact__text {
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 30px;
+    margin-bottom: 1.5em; }
+  .program_contact__buttons {
+    display: flex;
+    align-items: center; }
+  .program_contact .btn {
+    margin-right: 20px;
+    background: #FFFDFB; }
+    .program_contact .btn.btn_form {
+      padding: 18px 32px; }
+    .program_contact .btn:nth-last-child(1) {
+      margin-right: 0; }
+
+@media (max-width: 1400px) {
+  .program_contact .col-xxl-10 {
+    width: 95%; }
+  .program_contact__title {
+    font-size: 2.875rem; } }
+
+@media (max-width: 1200px) {
+  .program_contact {
+    text-align: center; }
+    .program_contact__row {
+      flex-direction: column-reverse; }
+    .program_contact__buttons {
+      justify-content: center; } }
+
+@media (max-width: 768px) {
+  .program_contact .col-xxl-10 {
+    width: 100%; }
+  .program_contact__picture {
+    max-width: 421px;
+    max-height: 489px;
+    margin: 0 auto; }
+  .program_contact__img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: contain;
+       object-fit: contain; } }
+
+@media (max-width: 580px) {
+  .program_contact:before {
+    left: -20%; }
+  .program_contact__title {
+    font-size: 1.75rem;
+    line-height: 115%;
+    margin-bottom: 10px; }
+    .program_contact__title span:before {
+      right: -21px; }
+  .program_contact__text {
+    font-size: 1.25rem;
+    line-height: 25px;
+    margin-bottom: 25px; }
+  .program_contact__buttons {
+    flex-direction: column; }
+  .program_contact .btn {
+    margin-right: 0;
+    margin-bottom: 10px;
+    width: 70%; }
+  .program_contact__picture {
+    max-width: 295px;
+    max-height: 345px; } }
+
+@media (max-width: 380px) {
+  .program_contact .btn {
+    width: 85%; } }

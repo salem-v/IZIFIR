@@ -1,0 +1,1 @@
+{"version":3,"file":"map.bundle.js","sources":["../src/map.js"],"sourcesContent":["import './style/style.scss'\nimport 'main.core'\n\nexport class Map\n{\n\tconstructor(options = {name: 'Map'})\n\t{\n\t}\n}"],"names":["options","name"],"mappings":"mDAKC,SAAYA,YAAAA,IAAAA,EAAU,CAACC,KAAM,OAE7B"}

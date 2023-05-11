@@ -1,0 +1,2 @@
+this.BX=this.BX||{},function(i,e,s){"use strict";i.Principles=function(){this.swiper=s.Swiper.init(".principles_swiper",{slidesPerView:4,spaceBetween:30,loop:!0,navigation:{nextEl:".swiper-but-next",prevEl:".swiper-but-prev"},breakpoints:{320:{slidesPerView:1.3,navigation:!1},768:{slidesPerView:2.5,navigation:!1},1e3:{slidesPerView:3.5,navigation:!1},1200:{slidesPerView:4}}})}}(this.BX.Izifir=this.BX.Izifir||{},BX,BX.Izifir);
+//# sourceMappingURL=principles.bundle.js.map

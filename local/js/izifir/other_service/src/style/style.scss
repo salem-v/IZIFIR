@@ -1,0 +1,61 @@
+.other_service {
+  background-color: var(--back-color);
+  position: relative;
+  overflow: hidden;
+
+  &::before {
+    content: url("/local/templates/.default/assets/img/background/other-back.png");
+    position: absolute;
+    top: 20px;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .row {
+    margin-top: 80px;
+
+    .other__item {
+      margin-right: 20px;
+      width: auto;
+      margin-bottom: 20px;
+    }
+  }
+
+  .other__button_all {
+    text-align: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .other_service {
+    .row {
+      margin-top: 40px;
+
+      .other__item {
+        margin-bottom: 20px;
+        margin-right: 0;
+      }
+    }
+
+    .btn {
+      display: inline-block;
+      background: none;
+      box-shadow: none;
+      text-decoration-line: underline !important;
+      color: #ff9ac5;
+      padding: 0;
+
+      &:hover {
+        background: transparent;
+        box-shadow: none;
+
+        &:active {
+          background: transparent;
+          box-shadow: none;
+        }
+      }
+    }
+  }
+}

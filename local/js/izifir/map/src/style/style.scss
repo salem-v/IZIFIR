@@ -1,0 +1,96 @@
+.map {
+  background-color: var(--back-color);
+  position: relative;
+  z-index: 10;
+  padding-top: 70px;
+
+  &::after {
+    content: url("/local/templates/.default/assets/img/background/cont_after.png");
+    position: absolute;
+    top: -95px;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    z-index: 1;
+  }
+
+  &_vacancy {
+    background: linear-gradient(263.67deg, #FFE9DA -0.08%, #FFEAE7 45.29%, #FFEBF5 90.67%);
+    overflow: hidden;
+  }
+
+  .container {
+    position: relative;
+    padding-bottom: 60px;
+  }
+
+  .fluid {
+    position: relative;
+    z-index: 10;
+  }
+
+  &__button {
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 150%;
+
+    p {
+      margin-bottom: 30px;
+    }
+
+    .btn {
+      margin-right: 30px;
+      height: 55px;
+      padding: 0 32px;
+      display: inline-flex;
+      flex-wrap: wrap;
+      align-content: center;
+      justify-content: center;
+
+      &:nth-last-child(1) {
+        margin-right: 0;
+      }
+    }
+  }
+}
+
+@media (max-width: 1620px) {
+  .map {
+    &__button {
+      right: 2%;
+    }
+  }
+}
+
+@media (max-width: 900px) {
+  .map {
+    &__button {
+      position: relative;
+      text-align: center;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .map {
+    padding-top: 0;
+  }
+}
+
+@media (max-width: 495px) {
+  .map {
+    &__button {
+      .btn {
+        margin-right: 0;
+        display: block;
+        margin-bottom: 40px;
+        &:nth-last-child(1) {
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
+}

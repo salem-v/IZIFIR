@@ -1,0 +1,53 @@
+.optimization_case {
+  background-color: var(--back-color); }
+  .optimization_case .opti__button {
+    text-align: center;
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 35px;
+    z-index: 10;
+    margin-right: 25px; }
+    .optimization_case .opti__button .button__arrow {
+      position: absolute;
+      right: 0;
+      top: 0;
+      display: flex; }
+  .optimization_case .item__img {
+    margin-bottom: 15px; }
+    .optimization_case .item__img img {
+      -o-object-fit: cover;
+         object-fit: cover; }
+  .optimization_case .item__text {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical; }
+  .optimization_case .card {
+    padding: 0 0 0 15px; }
+  .optimization_case .swiper {
+    padding: 20px 25px 20px 10px; }
+    .optimization_case .swiper .card {
+      padding: 20px 25px;
+      margin-bottom: 0;
+      height: 100%; }
+      .optimization_case .swiper .card__img {
+        max-height: 200px;
+        margin-bottom: 0; }
+      .optimization_case .swiper .card_wraper {
+        margin-bottom: 30px;
+        height: 400px; }
+
+@media (max-width: 1260px) {
+  .optimization_case {
+    padding-top: 0 !important; }
+    .optimization_case .swiper .card_wraper {
+      height: 360px; }
+    .optimization_case .item__text {
+      -webkit-line-clamp: 6; } }
+
+@media (max-width: 480px) {
+  .optimization_case .swiper .card_wraper {
+    margin-bottom: 30px;
+    height: 330px; }
+  .optimization_case .item__text {
+    -webkit-line-clamp: inherit; } }

@@ -1,0 +1,1 @@
+{"version":3,"file":"privacy_policy.bundle.js","sources":["../src/privacy_policy.js"],"sourcesContent":["import './style/style.scss'\nimport 'main.core'\n\nexport class PrivacyPolicy\n{\n\tconstructor(options = {name: 'PrivacyPolicy'})\n\t{\n\t}\n}"],"names":["options","name"],"mappings":"6DAKC,SAAYA,YAAAA,IAAAA,EAAU,CAACC,KAAM,iBAE7B"}

@@ -1,0 +1,62 @@
+.map {
+  background-color: var(--back-color);
+  position: relative;
+  z-index: 10;
+  padding-top: 70px; }
+  .map::after {
+    content: url("/local/templates/.default/assets/img/background/cont_after.png");
+    position: absolute;
+    top: -95px;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    z-index: 1; }
+  .map_vacancy {
+    background: linear-gradient(263.67deg, #FFE9DA -0.08%, #FFEAE7 45.29%, #FFEBF5 90.67%);
+    overflow: hidden; }
+  .map .container {
+    position: relative;
+    padding-bottom: 60px; }
+  .map .fluid {
+    position: relative;
+    z-index: 10; }
+  .map__button {
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 150%; }
+    .map__button p {
+      margin-bottom: 30px; }
+    .map__button .btn {
+      margin-right: 30px;
+      height: 55px;
+      padding: 0 32px;
+      display: inline-flex;
+      flex-wrap: wrap;
+      align-content: center;
+      justify-content: center; }
+      .map__button .btn:nth-last-child(1) {
+        margin-right: 0; }
+
+@media (max-width: 1620px) {
+  .map__button {
+    right: 2%; } }
+
+@media (max-width: 900px) {
+  .map__button {
+    position: relative;
+    text-align: center; } }
+
+@media (max-width: 768px) {
+  .map {
+    padding-top: 0; } }
+
+@media (max-width: 495px) {
+  .map__button .btn {
+    margin-right: 0;
+    display: block;
+    margin-bottom: 40px; }
+    .map__button .btn:nth-last-child(1) {
+      margin-bottom: 0; } }

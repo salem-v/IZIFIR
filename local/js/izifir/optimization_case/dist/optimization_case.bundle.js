@@ -1,0 +1,2 @@
+this.BX=this.BX||{},function(i,e,s){"use strict";i.OptimizationCase=function(){this.swiper=s.Swiper.init(".optimization_swiper",{slidesPerView:3,spaceBetween:30,loop:!0,navigation:{nextEl:".swiper-opti-next",prevEl:".swiper-opti-prev"},breakpoints:{320:{slidesPerView:1},600:{slidesPerView:2,spaceBetween:30},768:{slidesPerView:3,spaceBetween:30}}})}}(this.BX.Izifir=this.BX.Izifir||{},BX,BX.Izifir);
+//# sourceMappingURL=optimization_case.bundle.js.map

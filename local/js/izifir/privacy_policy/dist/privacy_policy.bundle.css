@@ -1,0 +1,25 @@
+.privacy_policy {
+  position: relative;
+  z-index: 7; }
+  .privacy_policy::before {
+    position: absolute;
+    top: -235px;
+    width: 100%;
+    overflow: hidden; }
+  .privacy_policy::after {
+    content: url("/local/templates/.default/assets/img/background/privacy_back_after.png");
+    position: absolute;
+    bottom: -265px;
+    width: 100%;
+    overflow: hidden; }
+  .privacy_policy .container {
+    position: relative;
+    z-index: 10;
+    padding-top: 50px;
+    padding-bottom: 30px; }
+  .privacy_policy a {
+    background: var(--line-gr-back-btn);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent; }

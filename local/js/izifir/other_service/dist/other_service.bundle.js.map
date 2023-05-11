@@ -1,0 +1,1 @@
+{"version":3,"file":"other_service.bundle.js","sources":["../src/other_service.js"],"sourcesContent":["import './style/style.scss'\r\n\r\nexport class OtherService\r\n{\r\n\tconstructor(options = {name: 'OtherService'})\r\n\t{\r\n\t}\r\n}"],"names":["options","name"],"mappings":"4DAIC,SAAYA,YAAAA,IAAAA,EAAU,CAACC,KAAM,gBAE7B"}

@@ -1,0 +1,1 @@
+{"version":3,"file":"page404.bundle.js","sources":["../src/page404.js"],"sourcesContent":["import './style/style.scss'\nimport 'main.core'\n\nexport class Page404\n{\n\tconstructor(options = {name: 'Page404'})\n\t{\n\t}\n}"],"names":["options","name"],"mappings":"uDAKC,SAAYA,YAAAA,IAAAA,EAAU,CAACC,KAAM,WAE7B"}

@@ -1,0 +1,65 @@
+.principles {
+  background-color: var(--back-color);
+  position: relative; }
+  .principles .card {
+    padding: 30px 30px 60px; }
+    .principles .card__img {
+      text-align: center;
+      width: 55px;
+      height: 55px;
+      margin: 0 auto 20px;
+      padding: 13px;
+      border-radius: 57px; }
+  .principles .swiper {
+    padding: 20px 25px 20px 10px; }
+    .principles .swiper .card {
+      padding: 20px 25px;
+      margin-bottom: 0;
+      height: 100%; }
+      .principles .swiper .card_wraper {
+        margin-bottom: 30px;
+        height: 100%;
+        max-height: 210px; }
+    .principles .swiper-button .button__arrow {
+      position: absolute;
+      right: 0;
+      display: flex;
+      top: -20px; }
+
+@media (max-width: 1260px) {
+  .principles .container {
+    padding-right: 0 !important; }
+  .principles .swiper-button {
+    display: none; }
+  .principles .swiper .card {
+    padding: 30px;
+    background: var(--line-gr-back-card);
+    box-shadow: var(--main-shadow);
+    border-radius: var(--border-radius);
+    margin-bottom: 0; }
+    .principles .swiper .card_wraper {
+      max-height: initial; }
+  .principles .card {
+    background: none;
+    box-shadow: none;
+    padding: 0;
+    margin: 0; } }
+
+@media (max-width: 768px) {
+  .principles .swiper .card {
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center; }
+    .principles .swiper .card_wraper {
+      height: auto; }
+    .principles .swiper .card__text {
+      min-height: 110px; } }
+
+@media (max-width: 468px) {
+  .principles {
+    padding: 0 !important; }
+    .principles .card__text {
+      min-height: 75px; }
+    .principles .m-t-60 {
+      margin: 0; } }
