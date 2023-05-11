@@ -1,0 +1,33 @@
+.carousel_info {
+  background-color: var(--back-color);
+  position: relative; }
+  .carousel_info .swiper {
+    padding: 15px 15px 30px 10px; }
+    .carousel_info .swiper .card {
+      height: 100%;
+      margin-bottom: 0; }
+      .carousel_info .swiper .card__text h4 {
+        font-weight: 700;
+        font-size: 1.375rem;
+        line-height: 133%; }
+      .carousel_info .swiper .card__text p {
+        font-weight: 500;
+        font-size: 1.125rem;
+        line-height: 133%; }
+      .carousel_info .swiper .card__img {
+        max-height: 200px; }
+
+@media (max-width: 768px) {
+  .carousel_info .swiper-button {
+    display: none; }
+  .carousel_info .swiper .card_wraper {
+    margin-bottom: 0;
+    height: auto; }
+  .carousel_info .swiper .card__img {
+    max-height: 160px; }
+  .carousel_info .swiper .card__text h4 {
+    font-size: 19px; }
+  .carousel_info .swiper .card__text p {
+    font-size: 1rem;
+    min-height: auto;
+    padding-bottom: 1rem; } }

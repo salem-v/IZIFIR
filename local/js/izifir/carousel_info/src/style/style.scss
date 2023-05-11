@@ -1,0 +1,64 @@
+.carousel_info {
+  background-color: var(--back-color);
+  position: relative;
+
+  .swiper {
+    padding: 15px 15px 30px 10px;
+
+    .card {
+      height: 100%;
+      margin-bottom: 0;
+
+      &__text {
+        h4 {
+          font-weight: 700;
+          font-size: 1.375rem;
+          line-height: 133%;
+        }
+
+        p {
+          font-weight: 500;
+          font-size: 1.125rem;
+          line-height: 133%;
+        }
+      }
+
+      &__img {
+        max-height: 200px;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .carousel_info {
+    .swiper {
+      &-button {
+        display: none;
+      }
+
+      .card {
+        &_wraper {
+          margin-bottom: 0;
+          height: auto;
+        }
+
+        &__img {
+          max-height: 160px;
+        }
+
+        &__text {
+          h4 {
+            font-size: 19px;
+          }
+
+          p {
+            font-size: 1rem;
+            min-height: auto;
+            padding-bottom: 1rem;
+          }
+        }
+      }
+    }
+  }
+}

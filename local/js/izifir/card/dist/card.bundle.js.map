@@ -1,0 +1,1 @@
+{"version":3,"file":"card.bundle.js","sources":["../src/card.js"],"sourcesContent":["import './style/style.scss';\r\n\r\nexport class Card\r\n{\r\n\tconstructor(options = {name: 'Card'})\r\n\t{\r\n\t}\r\n}"],"names":["options","name"],"mappings":"oDAIC,SAAYA,YAAAA,IAAAA,EAAU,CAACC,KAAM,QAE7B"}

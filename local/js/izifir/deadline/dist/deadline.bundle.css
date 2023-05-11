@@ -1,0 +1,198 @@
+.deadline {
+  background: var(--back-color);
+  position: relative;
+  overflow: hidden; }
+  .deadline::after {
+    content: url("/local/templates/.default/assets/img/background/deadline-back.png");
+    position: absolute;
+    bottom: -735px;
+    right: 0;
+    z-index: 1; }
+  .deadline .row {
+    position: relative; }
+    .deadline .row::after {
+      content: "";
+      width: 100%;
+      position: absolute;
+      right: -85px;
+      top: 35px;
+      z-index: 5;
+      height: 100%;
+      background: url(/local/templates/.default/assets/img/icons/deadline_line.svg) no-repeat; }
+  .deadline__item {
+    margin-bottom: 60px;
+    z-index: 10;
+    position: relative; }
+    .deadline__item .item__count {
+      background: #FFFDFB;
+      box-shadow: var(--main-shadow);
+      border-radius: 57px;
+      padding: 10px 0;
+      margin-left: 15px;
+      margin-bottom: 30px;
+      width: 75px;
+      height: 75px;
+      text-align: center; }
+      .deadline__item .item__count p {
+        font-weight: 700;
+        font-size: 2.5rem;
+        line-height: 130%;
+        color: #3F4347; }
+    .deadline__item .item__text {
+      font-weight: 400;
+      font-size: 1.125rem;
+      line-height: 160%;
+      color: var(--text-color-main);
+      width: 70%; }
+  .deadline__button {
+    padding-top: 13px;
+    position: relative;
+    z-index: 10; }
+
+@media (max-width: 1570px) {
+  .deadline .row:after {
+    width: 88%;
+    right: 84px;
+    height: 50%;
+    background-size: cover;
+    background-position: right; } }
+
+@media (max-width: 920px) {
+  .deadline .row:after {
+    width: 90%;
+    right: 50px; } }
+
+@media (max-width: 768px) {
+  .deadline {
+    padding-bottom: 87px !important; }
+    .deadline .row:after {
+      background: url(/local/templates/.default/assets/img/icons/deadline_line_mb.svg) no-repeat;
+      width: 100%;
+      right: auto;
+      height: 100%;
+      background-size: contain;
+      background-position: center; }
+    .deadline__item:nth-child(1) {
+      margin-left: 5%; }
+      .deadline__item:nth-child(1) .item__count {
+        margin-left: 12%; }
+    .deadline__item:nth-child(2) {
+      margin-top: 7%;
+      margin-left: 20%; }
+      .deadline__item:nth-child(2) .item__count {
+        margin-left: 30%; }
+    .deadline__item:nth-child(3) {
+      margin-top: 7%;
+      margin-left: 12%; }
+      .deadline__item:nth-child(3) .item__count {
+        margin-left: 17%; }
+    .deadline__item:nth-child(4) {
+      margin-top: 9%;
+      margin-left: 22%; }
+      .deadline__item:nth-child(4) .item__count {
+        margin-left: 38%; }
+      .deadline__item:nth-child(4).order-4 {
+        order: inherit !important; }
+    .deadline__item:nth-child(5) {
+      margin-top: 5%;
+      margin-left: 15%; }
+      .deadline__item:nth-child(5) .item__count {
+        margin-left: 15%; }
+      .deadline__item:nth-child(5).order-5 {
+        order: inherit !important; }
+    .deadline .order-4 {
+      order: 7 !important; }
+    .deadline__button {
+      margin-top: 5% !important;
+      text-align: right;
+      padding-right: 25% !important; }
+      .deadline__button .btn {
+        position: absolute;
+        width: -webkit-max-content;
+        width: max-content;
+        right: 30%; } }
+
+@media (max-width: 630px) {
+  .deadline .row:after {
+    width: 100%;
+    right: auto;
+    height: 100%;
+    background-size: cover; }
+  .deadline__item:nth-child(1) {
+    margin-left: 7%;
+    margin-top: 1%; }
+    .deadline__item:nth-child(1) .item__count {
+      margin-left: 2%; }
+  .deadline__item:nth-child(2) {
+    margin-top: 50px;
+    margin-left: 13%; }
+    .deadline__item:nth-child(2) .item__count {
+      margin-left: 35%; }
+  .deadline__item:nth-child(3) {
+    margin-top: 5%;
+    margin-left: 12%; }
+    .deadline__item:nth-child(3) .item__count {
+      margin-left: 7%; }
+  .deadline__button {
+    margin-top: 5% !important;
+    text-align: right;
+    padding-right: 25% !important; }
+    .deadline__button .btn {
+      position: absolute;
+      width: -webkit-max-content;
+      width: max-content;
+      right: 30%; } }
+
+@media (max-width: 540px) {
+  .deadline .row:after {
+    background-size: contain;
+    background-position: top; }
+  .deadline__item:nth-child(2) {
+    margin-top: -3%; }
+  .deadline__item:nth-child(3) {
+    margin-top: -3%; }
+  .deadline__item:nth-child(4) {
+    margin-top: -3%; }
+  .deadline__item:nth-child(5) {
+    margin-top: -3%; }
+  .deadline__button {
+    margin-top: 0 !important;
+    position: absolute;
+    bottom: 15px; } }
+
+@media (max-width: 540px) {
+  .deadline__item {
+    margin-bottom: 45px; } }
+
+@media (max-width: 445px) {
+  .deadline__item {
+    margin-bottom: 0; }
+    .deadline__item:nth-child(1) {
+      margin-top: 0; }
+    .deadline__item:nth-child(2) {
+      margin-top: 0;
+      margin-bottom: 10px; }
+      .deadline__item:nth-child(2) .item__count {
+        margin-bottom: 20px; }
+    .deadline__item:nth-child(3) {
+      margin-top: 0; }
+      .deadline__item:nth-child(3) .item__count {
+        margin-top: 8%; }
+    .deadline__item:nth-child(4) {
+      margin-top: -6%; }
+    .deadline__item:nth-child(5) .item__count {
+      margin-left: 15%;
+      margin-top: 10%; }
+    .deadline__item:nth-child(6) {
+      margin-left: 20%; }
+      .deadline__item:nth-child(6) .item__count {
+        margin-bottom: 10px;
+        margin-top: 15px; }
+  .deadline__button {
+    margin-top: 0 !important;
+    position: absolute;
+    bottom: -7px; } }
+
+@media (max-width: 420px) {
+  .deadline .row:after {
+    background-size: cover; } }

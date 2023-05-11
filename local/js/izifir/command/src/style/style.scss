@@ -1,0 +1,178 @@
+.command {
+  background-color: var(--back-color);
+  position: relative;
+
+  &__container {
+    width: 1345px;
+    margin: 120px auto 0;
+    position: relative;
+    z-index: 10;
+
+    h3 {
+      font-weight: 600;
+      font-size: 2rem;
+      line-height: 150%;
+    }
+
+    h4 {
+      font-weight: 500;
+      font-size: 1.375rem;
+      line-height: 160%;
+    }
+
+    .card {
+      width: 60%;
+      margin: 0 auto;
+
+      &_text {
+        padding: 40px 100px;
+        text-align: center;
+
+        p {
+          margin: 0;
+        }
+      }
+    }
+  }
+
+  img {
+    border-radius: var(--border-radius);
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .row {
+    align-items: center;
+  }
+
+  &__item {
+    margin-bottom: 120px;
+
+    img {
+      object-fit: cover;
+      width: 100%;
+    }
+
+    &_revers {
+      .row {
+        flex-direction: row-reverse;
+      }
+    }
+  }
+
+  .swiper {
+    margin-top: 80px;
+
+    .slide {
+      &__img {
+        object-fit: cover;
+        margin-bottom: 30px;
+      }
+
+      &__text {
+        h3 {
+          margin-bottom: 10px;
+        }
+
+        h4 {
+          margin-bottom: 20px;
+        }
+      }
+    }
+
+    &-button {
+      .button__arrow {
+        position: absolute;
+        right: 0;
+        top: -425px;
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+      }
+    }
+  }
+}
+
+@media (max-width: 1200px) {
+  .command {
+    img {
+      width: 100%;
+      object-fit: cover;
+    }
+
+    &__container {
+      width: 100%;
+    }
+
+    .swiper {
+      width: 80%;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .command {
+    .swiper {
+      &-button {
+        .button {
+          &__arrow {
+            right: -15px;
+            top: auto;
+            justify-content: space-evenly;
+          }
+        }
+
+        &-prev {
+          margin: 0;
+        }
+
+        &-next {
+          margin: 0;
+        }
+      }
+    }
+
+    &__container {
+      .card {
+        width: 100%;
+
+        &_text {
+          padding: 40px;
+        }
+      }
+
+      h3 {
+        margin-top: 40px;
+      }
+    }
+
+    &__item {
+      margin-bottom: 80px;
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .command {
+    &__item {
+      margin-bottom: 40px;
+    }
+
+    .swiper {
+      .slide__text {
+        h3 {
+          margin-bottom: 10px;
+          margin-top: 0;
+        }
+      }
+    }
+
+    .swiper-button {
+      .button__arrow {
+        right: -15px;
+        top: auto;
+        justify-content: space-evenly;
+      }
+    }
+  }
+}

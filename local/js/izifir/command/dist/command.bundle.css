@@ -1,0 +1,95 @@
+.command {
+  background-color: var(--back-color);
+  position: relative; }
+  .command__container {
+    width: 1345px;
+    margin: 120px auto 0;
+    position: relative;
+    z-index: 10; }
+    .command__container h3 {
+      font-weight: 600;
+      font-size: 2rem;
+      line-height: 150%; }
+    .command__container h4 {
+      font-weight: 500;
+      font-size: 1.375rem;
+      line-height: 160%; }
+    .command__container .card {
+      width: 60%;
+      margin: 0 auto; }
+      .command__container .card_text {
+        padding: 40px 100px;
+        text-align: center; }
+        .command__container .card_text p {
+          margin: 0; }
+  .command img {
+    border-radius: var(--border-radius);
+    width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover; }
+  .command .row {
+    align-items: center; }
+  .command__item {
+    margin-bottom: 120px; }
+    .command__item img {
+      -o-object-fit: cover;
+         object-fit: cover;
+      width: 100%; }
+    .command__item_revers .row {
+      flex-direction: row-reverse; }
+  .command .swiper {
+    margin-top: 80px; }
+    .command .swiper .slide__img {
+      -o-object-fit: cover;
+         object-fit: cover;
+      margin-bottom: 30px; }
+    .command .swiper .slide__text h3 {
+      margin-bottom: 10px; }
+    .command .swiper .slide__text h4 {
+      margin-bottom: 20px; }
+    .command .swiper-button .button__arrow {
+      position: absolute;
+      right: 0;
+      top: -425px;
+      display: flex;
+      width: 100%;
+      justify-content: space-between; }
+
+@media (max-width: 1200px) {
+  .command img {
+    width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover; }
+  .command__container {
+    width: 100%; }
+  .command .swiper {
+    width: 80%; } }
+
+@media (max-width: 768px) {
+  .command .swiper-button .button__arrow {
+    right: -15px;
+    top: auto;
+    justify-content: space-evenly; }
+  .command .swiper-button-prev {
+    margin: 0; }
+  .command .swiper-button-next {
+    margin: 0; }
+  .command__container .card {
+    width: 100%; }
+    .command__container .card_text {
+      padding: 40px; }
+  .command__container h3 {
+    margin-top: 40px; }
+  .command__item {
+    margin-bottom: 80px; } }
+
+@media (max-width: 480px) {
+  .command__item {
+    margin-bottom: 40px; }
+  .command .swiper .slide__text h3 {
+    margin-bottom: 10px;
+    margin-top: 0; }
+  .command .swiper-button .button__arrow {
+    right: -15px;
+    top: auto;
+    justify-content: space-evenly; } }

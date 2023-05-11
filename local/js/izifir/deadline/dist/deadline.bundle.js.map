@@ -1,0 +1,1 @@
+{"version":3,"file":"deadline.bundle.js","sources":["../src/deadline.js"],"sourcesContent":["import './style/style.scss';\r\n\r\nexport class Deadline\r\n{\r\n\tconstructor(options = {name: 'Deadline'})\r\n\t{\r\n\t}\r\n}"],"names":["options","name"],"mappings":"wDAIC,SAAYA,YAAAA,IAAAA,EAAU,CAACC,KAAM,YAE7B"}

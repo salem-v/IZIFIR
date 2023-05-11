@@ -1,0 +1,1 @@
+{"version":3,"file":"concept.bundle.js","sources":["../src/concept.js"],"sourcesContent":["import './style/style.scss';\r\n\r\nexport class Concept\r\n{\r\n\tconstructor(options = {name: 'Concept'})\r\n\t{\r\n\t}\r\n}"],"names":["options","name"],"mappings":"uDAIC,SAAYA,YAAAA,IAAAA,EAAU,CAACC,KAAM,WAE7B"}

@@ -1,0 +1,2 @@
+this.BX=this.BX||{},function(i,e,s){"use strict";i.CarouselResult=function(){this.swiper=s.Swiper.init(".swiper_result",{slidesPerView:2,loop:!0,navigation:{nextEl:".swiper-button-next",prevEl:".swiper-button-prev"},breakpoints:{320:{slidesPerView:1},768:{slidesPerView:1},1230:{slidesPerView:2,spaceBetween:30}}})}}(this.BX.Izifir=this.BX.Izifir||{},BX,BX.Izifir);
+//# sourceMappingURL=carousel_result.bundle.js.map

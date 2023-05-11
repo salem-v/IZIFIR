@@ -1,0 +1,94 @@
+.concept {
+  background-color: var(--back-color);
+  padding-bottom: 0 !important;
+  position: relative;
+
+  &:before {
+    content: url("/local/templates/.default/assets/img/background/concept_back.png");
+    position: absolute;
+    top: -520px;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .row {
+    justify-content: space-between;
+  }
+
+  &__item {
+    width: calc(100%/7 - 20px) !important;
+    text-align: center;
+
+    .item__img {
+      background: #FFFDFB;
+      box-shadow: var(--main-shadow);
+      width: 80px;
+      height: 80px;
+      border-radius: 50px;
+      margin: 0 auto 30px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      align-content: center;
+      flex-wrap: wrap;
+
+      img {
+        object-fit: contain;
+      }
+    }
+
+    .text {
+      font: {
+        weight: 500;
+        size: 1rem;
+      }
+      line-height: 150%;
+    }
+  }
+}
+
+@media (max-width: 1200px) {
+  .concept {
+    &__item {
+      width: calc(100%/5 - 20px) !important;
+      margin-bottom: 30px;
+    }
+
+    .row {
+      justify-content: center;
+    }
+  }
+}
+
+@media (max-width: 1080px) {
+  .concept {
+    &__item {
+      width: calc(100%/4 - 20px) !important;
+    }
+  }
+}
+
+@media (max-width: 900px) {
+  .concept {
+    &__item {
+      width: calc(100%/3 - 20px) !important;
+    }
+  }
+}
+
+@media (max-width: 670px) {
+  .concept {
+    margin-top: 60px;
+
+    &__item {
+      width: 50% !important;
+    }
+
+    .item__img {
+      width: 60px;
+      height: 60px;
+    }
+  }
+}

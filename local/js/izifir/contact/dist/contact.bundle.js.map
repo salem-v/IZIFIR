@@ -1,0 +1,1 @@
+{"version":3,"file":"contact.bundle.js","sources":["../src/contact.js"],"sourcesContent":["import './style/style.scss'\nimport 'main.core'\n\nexport class Contact\n{\n\tconstructor(options = {name: 'Contact'})\n\t{\n\t}\n}"],"names":["options","name"],"mappings":"uDAKC,SAAYA,YAAAA,IAAAA,EAAU,CAACC,KAAM,WAE7B"}

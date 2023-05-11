@@ -1,0 +1,1 @@
+{"version":3,"file":"check_list.bundle.js","sources":["../src/check_list.js"],"sourcesContent":["import './style/style.scss'\nimport 'main.core'\n\nexport class CheckList\n{\n\tconstructor(options = {name: 'CheckList'})\n\t{\n\t}\n}"],"names":["options","name"],"mappings":"yDAKC,SAAYA,YAAAA,IAAAA,EAAU,CAACC,KAAM,aAE7B"}

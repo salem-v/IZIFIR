@@ -1,0 +1,57 @@
+.case_all {
+  background-color: var(--back-color);
+  position: relative; }
+  .case_all:after {
+    content: url("/local/templates/.default/assets/img/background/case_all_back.png");
+    position: absolute;
+    top: -265px;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    z-index: 1; }
+  .case_all .filters {
+    position: relative;
+    z-index: 10;
+    padding-top: 40px; }
+    .case_all .filters:nth-child(1) {
+      margin-top: 0; }
+    .case_all .filters .smart-filter__container {
+      padding-top: 30px; }
+
+.f-loading {
+  -webkit-filter: blur(5px);
+          filter: blur(5px);
+  position: relative;
+  z-index: 2; }
+
+@media (max-width: 768px) {
+  .case_all .filters {
+    padding-top: 20px;
+    /*.smart-filter {
+        &__container {
+          flex-wrap: nowrap;
+          overflow-y: scroll;
+          flex-direction: row;
+          padding-top: 5px;
+          padding-bottom: 20px;
+          margin-right: -10px;
+        }
+
+        &__item {
+          position: relative;
+          cursor: pointer;
+          width: 100%;
+          min-width: 155px;
+          text-align: center;
+        }
+
+        &__label {
+          padding: 15px !important;
+        }
+
+        &__checkbox:checked + .smart-filter__label {
+          padding-right: 15px !important;
+        }
+      }*/ }
+    .case_all .filters.case_all .filters:nth-child(1) {
+      margin-top: 10px; } }
