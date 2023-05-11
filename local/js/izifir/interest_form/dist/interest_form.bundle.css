@@ -1,0 +1,92 @@
+.interest_form {
+  position: relative;
+  z-index: 10;
+  background-color: #fff;
+  margin-top: 120px; }
+  .interest_form .in_form {
+    background: var(--back-color-block);
+    box-shadow: var(--main-shadow);
+    border-radius: var(--border-radius);
+    padding: 30px 50px;
+    display: flex;
+    align-items: flex-start; }
+  .interest_form .form__item {
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 40px; }
+  .interest_form .form__check {
+    margin-right: 80px; }
+    .interest_form .form__check:nth-last-child(1) {
+      margin: 0; }
+    .interest_form .form__check p {
+      margin: 0;
+      color: #959595; }
+  .interest_form .form__button {
+    padding: 18px 32px !important;
+    width: 115px !important; }
+    .interest_form .form__button_close {
+      padding: 0 !important;
+      width: 70% !important;
+      position: absolute;
+      right: -684px;
+      top: 135px;
+      display: flex;
+      align-content: center; }
+  .interest_form .form__img {
+    text-align: right; }
+    .interest_form .form__img img {
+      border-radius: var(--border-radius);
+      box-shadow: var(--main-shadow); }
+  .interest_form .form__open .form__row {
+    justify-content: space-between;
+    align-items: flex-start; }
+  .interest_form .form__open .form__wrapper {
+    position: relative; }
+  .interest_form .form__open_btn_close .btn {
+    padding: 5px;
+    margin-right: 40px; }
+  .interest_form .form__open .form__inp-wrap--text .form__input {
+    height: 195px; }
+  .interest_form .form__open .privacy {
+    margin: 5px 20px 0; }
+    .interest_form .form__open .privacy .privacy__wrapper .privacy-policy-checkbox + label {
+      width: 88%; }
+  .interest_form .item__title {
+    font-weight: 600;
+    font-size: 1.375rem;
+    line-height: 28px;
+    margin-bottom: 20px; }
+
+@media (max-width: 1350px) {
+  .interest_form .form__img img {
+    width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover; } }
+
+@media (max-width: 1124px) {
+  .interest_form .form__img {
+    display: none; }
+  .interest_form .form__button_close {
+    padding: 0 !important;
+    width: 75% !important;
+    position: relative;
+    right: 0;
+    top: 0;
+    display: flex;
+    align-content: center; }
+  .interest_form .form__open_btn_close {
+    position: absolute;
+    right: -75px; }
+  .interest_form .col-md-8 {
+    width: 100% !important; } }
+
+@media (max-width: 800px) {
+  .interest_form .form__check {
+    margin-right: 50px; } }
+
+@media (max-width: 768px) {
+  .form__check {
+    width: 50%;
+    margin-right: 0 !important; }
+  .form__item {
+    flex-wrap: wrap; } }

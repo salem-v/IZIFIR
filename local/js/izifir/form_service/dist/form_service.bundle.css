@@ -1,0 +1,191 @@
+.service_form {
+  padding-top: 25px;
+  background: var(--back-color);
+  overflow: hidden; }
+  .service_form .container {
+    position: relative;
+    z-index: 10; }
+  .service_form .form_service {
+    background: linear-gradient(263.67deg, #FFE9DA -0.08%, #FFEAE7 45.29%, #FFEBF5 90.67%);
+    box-shadow: var(--main-shadow);
+    padding-top: 50px;
+    padding-bottom: 80px;
+    position: relative; }
+  .service_form .form__container {
+    width: 1375px;
+    margin: 0 auto; }
+  .service_form .form__row {
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap; }
+  .service_form .form__check_list {
+    background: #FFFFFF;
+    box-shadow: var(--main-shadow);
+    border-radius: var(--border-radius);
+    padding: 30px;
+    margin-right: 20px;
+    min-height: 400px; }
+    .service_form .form__check_list .check__title {
+      font-weight: 600;
+      font-size: 1.375rem;
+      line-height: 160%;
+      color: var(--text-color-main);
+      margin-bottom: 20px; }
+    .service_form .form__check_list .form__check {
+      display: flex;
+      justify-content: flex-start;
+      margin-bottom: 30px;
+      font-weight: 500;
+      font-size: 1rem;
+      line-height: 20px; }
+      .service_form .form__check_list .form__check label {
+        margin-right: 30px; }
+      .service_form .form__check_list .form__check:nth-last-child(1) {
+        margin: 0; }
+      .service_form .form__check_list .form__check p {
+        margin: 0; }
+  .service_form .form__input {
+    margin-bottom: 22px;
+    width: 100%;
+    height: 65px; }
+  .service_form .form__inp-wrap--text .form__input {
+    height: 195px; }
+  .service_form .form__button {
+    display: flex;
+    align-items: center; }
+    .service_form .form__button .btn {
+      margin: 0 30px 0 0; }
+  .service_form_create {
+    padding-top: 120px; }
+    .service_form_create .form__container {
+      width: 1620px; }
+    .service_form_create .form__row {
+      align-items: center !important; }
+    .service_form_create .form__img {
+      background: linear-gradient(137.62deg, #FFFFFF 1.27%, rgba(255, 255, 255, 0.1) 112.55%);
+      border-radius: var(--border-radius);
+      margin-right: 30px;
+      padding: 50px 40px; }
+      .service_form_create .form__img img {
+        width: 100%;
+        -o-object-fit: contain;
+           object-fit: contain; }
+    .service_form_create .form__inp-wrap--file .input-file {
+      position: relative;
+      display: inline-block; }
+      .service_form_create .form__inp-wrap--file .input-file span {
+        position: relative;
+        display: inline-block;
+        cursor: pointer;
+        outline: none;
+        vertical-align: middle;
+        border-radius: 4px;
+        height: 40px;
+        padding: 10px 20px 10px 0;
+        box-sizing: border-box;
+        border: none;
+        margin: 0;
+        background: var(--line-gr-back-btn);
+        -webkit-background-clip: text;
+                background-clip: text;
+        text-fill-color: transparent;
+        font-weight: 700;
+        font-size: 1.125rem;
+        line-height: 23px; }
+      .service_form_create .form__inp-wrap--file .input-file input[type=file] {
+        position: absolute;
+        z-index: -1;
+        opacity: 0;
+        display: block;
+        width: 0;
+        height: 0; }
+        .service_form_create .form__inp-wrap--file .input-file input[type=file]:focus + span {
+          box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25); }
+    .service_form_create .form__inp-wrap--info-file {
+      padding-right: 20px; }
+      .service_form_create .form__inp-wrap--info-file p {
+        font-weight: 500;
+        font-size: 1rem;
+        line-height: 133%; }
+  .service_form.resume_form {
+    padding-top: 0; }
+    .service_form.resume_form .form__container {
+      width: 1620px; }
+    .service_form.resume_form .form_resume select {
+      color: #9d9db0; }
+    .service_form.resume_form .form_resume .form__inp-wrap--text .form__input {
+      height: 290px !important; }
+    .service_form.resume_form .form_resume .privacy {
+      margin-bottom: 20px; }
+    .service_form.resume_form .cont_img {
+      border-radius: var(--border-radius);
+      margin-top: -20px;
+      -o-object-fit: cover;
+         object-fit: cover; }
+    .service_form.resume_form .file {
+      margin-right: 30px; }
+
+@media (max-width: 1670px) {
+  .service_form.resume_form .form__container {
+    width: 1245px; }
+  .service_form.resume_form .form__button {
+    justify-content: space-between;
+    width: 100%; }
+  .service_form_create .form__container {
+    width: 1245px; } }
+
+@media (max-width: 1400px) {
+  .service_form .form__container {
+    width: 100%;
+    padding: 0 30px; } }
+
+@media (max-width: 1260px) {
+  .service_form.resume_form .form__container {
+    width: 100%;
+    padding: 0 20px; }
+  .service_form_create .form__container {
+    width: 100%;
+    padding: 0 30px; } }
+
+@media (max-width: 980px) {
+  .service_form.resume_form .form__wrapper {
+    width: 50%; }
+  .service_form.resume_form .form__img_none {
+    display: none; } }
+
+@media (max-width: 768px) {
+  .service_form.resume_form .form__wrapper {
+    width: 100%; }
+  .service_form.resume_form .form__input {
+    margin-right: 0; }
+  .service_form.resume_form .form__button {
+    display: block;
+    text-align: center; }
+  .service_form_create {
+    padding-top: 60px; }
+    .service_form_create .form__inp-wrap--info-file p {
+      font-size: .875rem; }
+  .service_form .form__button {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column-reverse; }
+  .service_form .form__input {
+    margin-right: 0; }
+  .service_form .form__img {
+    margin-right: 0;
+    margin-bottom: 30px; }
+    .service_form .form__img img {
+      max-height: 200px; }
+  .service_form .form__check_list {
+    margin-right: 0;
+    margin-bottom: 30px;
+    min-height: auto; }
+  .service_form .privacy {
+    margin-bottom: 25px; } }
+
+@media (max-width: 480px) {
+  .service_form_create {
+    padding-top: 40px; }
+    .service_form_create .form__inp-wrap--info-file p {
+      font-size: 0.75rem; } }

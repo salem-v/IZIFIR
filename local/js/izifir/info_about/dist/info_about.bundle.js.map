@@ -1,0 +1,1 @@
+{"version":3,"file":"info_about.bundle.js","sources":["../src/info_about.js"],"sourcesContent":["import './style/style.scss'\nimport 'main.core'\n\nexport class InfoAbout\n{\n\tconstructor()\n\t{\n\t}\n}"],"names":[],"mappings":"yDAKC"}

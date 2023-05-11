@@ -1,0 +1,179 @@
+.form_review {
+  background: var(--back-color);
+  position: relative; }
+  .form_review::before {
+    content: url("/local/templates/.default/assets/img/background/form_review_back.png");
+    position: absolute;
+    top: -535px;
+    left: 0;
+    width: 100%;
+    overflow: hidden; }
+  .form_review .share {
+    display: flex;
+    align-items: center; }
+    .form_review .share__button:hover {
+      box-shadow: var(--main-shadow); }
+      .form_review .share__button:hover:active {
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(-1.6%, #FFFAF5), color-stop(8.99%, #FFFAF5), color-stop(92.06%, #FFFAF6), to(#F6EBE2)); }
+    .form_review .share__button #share__img {
+      margin-left: 10px;
+      margin-right: 0; }
+    .form_review .share__item {
+      width: -webkit-fit-content;
+      width: fit-content;
+      margin-right: 30px; }
+      .form_review .share__item:nth-child(1) {
+        margin-right: 60px; }
+        .form_review .share__item:nth-child(1) .btn {
+          padding: 20px; }
+          .form_review .share__item:nth-child(1) .btn img {
+            width: auto;
+            margin: 0; }
+      .form_review .share__item:nth-last-child(1) .btn p {
+        font-weight: 700;
+        font-size: 1rem;
+        line-height: 160%;
+        background: var(--line-gr-back-btn);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        text-fill-color: transparent; }
+      .form_review .share__item .btn {
+        display: flex;
+        padding: 10px 20px; }
+        .form_review .share__item .btn p {
+          margin-bottom: 0; }
+        .form_review .share__item .btn img {
+          width: 20px;
+          margin-right: 10px; }
+        .form_review .share__item .btn.like p {
+          color: #D4D4D4; }
+        .form_review .share__item .btn.like_no img {
+          -webkit-transform: rotate(180deg);
+                  transform: rotate(180deg); }
+      .form_review .share__item_social {
+        display: flex; }
+        .form_review .share__item_social .btn {
+          padding: 5px;
+          height: 30px;
+          width: 30px;
+          margin-left: 15px; }
+          .form_review .share__item_social .btn img {
+            margin: 0;
+            width: 70%; }
+  .form_review .form_comment__title {
+    width: 80%;
+    float: left; }
+  .form_review .form_comment .add_mark {
+    position: relative;
+    display: flex; }
+    .form_review .form_comment .add_mark p {
+      font-weight: 500;
+      font-size: .875rem;
+      line-height: 160%; }
+    .form_review .form_comment .add_mark:hover .add_info {
+      display: block; }
+    .form_review .form_comment .add_mark__img {
+      margin-left: 10px;
+      box-shadow: var(--main-shadow);
+      border-radius: 50px; }
+      .form_review .form_comment .add_mark__img:hover {
+        cursor: pointer; }
+        .form_review .form_comment .add_mark__img:hover .add_info {
+          display: block; }
+  .form_review .form_comment .add_info {
+    display: none;
+    position: absolute;
+    top: -55px;
+    right: 35px;
+    width: 90px;
+    height: 41px;
+    background: var(--line-gr-back);
+    box-shadow: var(--main-shadow);
+    border-radius: var(--border-radius);
+    text-align: center; }
+    .form_review .form_comment .add_info p {
+      position: relative;
+      z-index: 10;
+      background: var(--line-gr-back-btn);
+      -webkit-background-clip: text;
+              background-clip: text;
+      text-fill-color: transparent;
+      margin-top: 9px;
+      font-weight: 700; }
+  .form_review .form_comment .form__shadow {
+    box-shadow: var(--main-shadow); }
+  .form_review .form_comment .form__wrapper {
+    position: relative;
+    margin-top: 30px; }
+    .form_review .form_comment .form__wrapper .button {
+      position: absolute;
+      bottom: 40px;
+      right: 45px; }
+  .form_review .form_comment .form__inp-wrap--text .form__input {
+    height: 260px;
+    box-shadow: var(--main-shadow); }
+  .form_review .comments__item {
+    margin-top: 60px; }
+    .form_review .comments__item .item__person {
+      display: flex; }
+      .form_review .comments__item .item__person_img {
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        overflow: hidden;
+        float: left;
+        margin-right: 20px; }
+      .form_review .comments__item .item__person_info h4 {
+        font-weight: 600;
+        font-size: 1.25rem;
+        line-height: 25px;
+        margin-bottom: 10px; }
+      .form_review .comments__item .item__person_info p {
+        font-weight: 500;
+        font-size: 0.75rem;
+        line-height: 15px; }
+    .form_review .comments__item .item__text {
+      margin-left: 70px; }
+      .form_review .comments__item .item__text p {
+        font-weight: 400;
+        font-size: 1rem;
+        line-height: 160%; }
+  .form_review .comments .btn_form {
+    color: #fff; }
+  .form_review .blog-comments__g-txt {
+    color: #D4D4D4;
+    font-weight: 500;
+    font-size: 1.125rem;
+    line-height: 160%; }
+
+@media (max-width: 768px) {
+  .form_review .form__inp-wrap {
+    flex-wrap: wrap; }
+  .form_review .form__input {
+    margin: 0 10px 15px; }
+  .form_review .share {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px; }
+    .form_review .share__item {
+      margin-right: 0; }
+      .form_review .share__item:nth-child(1) {
+        margin-right: 0; }
+        .form_review .share__item:nth-child(1) .btn {
+          padding: 0;
+          text-align: center;
+          height: 50px;
+          width: 50px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          align-content: center;
+          flex-wrap: wrap; }
+          .form_review .share__item:nth-child(1) .btn img {
+            width: 65%; }
+  .form_review .form_comment__title {
+    width: 69%;
+    float: left; }
+  .form_review .form_comment .add_mark {
+    display: none; } }

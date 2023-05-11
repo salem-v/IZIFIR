@@ -1,0 +1,1 @@
+{"version":3,"file":"form_service.bundle.js","sources":["../src/form_service.js"],"sourcesContent":["import './style/style.scss'\r\n\r\nexport class FormService\r\n{\r\n\tconstructor(options = {name: 'FormService'})\r\n\t{\r\n\t}\r\n}"],"names":["options","name"],"mappings":"2DAIC,SAAYA,YAAAA,IAAAA,EAAU,CAACC,KAAM,eAE7B"}

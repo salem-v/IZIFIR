@@ -1,0 +1,22 @@
+.info_about {
+  background-color: var(--back-color);
+  position: relative; }
+  .info_about .row {
+    align-items: center; }
+  .info_about__text {
+    font-weight: 500;
+    font-size: 1.375rem;
+    line-height: 133%; }
+  .info_about__img {
+    text-align: right; }
+    .info_about__img img {
+      border-radius: var(--border-radius);
+      overflow: hidden;
+      box-shadow: var(--main-shadow); }
+
+@media (max-width: 1200px) {
+  .info_about__img img {
+    width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    height: 100%; } }

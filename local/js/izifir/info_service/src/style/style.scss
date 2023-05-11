@@ -1,0 +1,56 @@
+.info {
+  background-color: #fff;
+  position: relative;
+  z-index: 10;
+
+  &__text {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    line-height: 1.5em;
+    max-height: 175px;
+    height: 100%;
+
+    &.active {
+      display: block;
+      overflow: inherit;
+      max-height: 100%;
+      height: 100%;
+    }
+  }
+  &__button {
+    background: var(--line-gr-back-btn);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    border: none;
+    padding: 0;
+    text-decoration-line: underline;
+    font-style: normal;
+    font: {
+      weight: 400;
+      size: 1.125rem;
+    }
+    line-height: 160%;
+    border-bottom: 1.5px solid #fc9e92;
+    margin-top: 10px;
+
+    &_open {
+      display: none;
+
+      &.active {
+        display: block;
+      }
+    }
+
+    &_close {
+      display: none;
+
+      &.active {
+        display: block;
+      }
+    }
+  }
+}

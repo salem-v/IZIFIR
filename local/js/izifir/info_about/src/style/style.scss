@@ -1,0 +1,36 @@
+.info_about {
+  background-color: var(--back-color);
+  position: relative;
+
+  .row {
+    align-items: center;
+  }
+  
+  &__text {
+    font: {
+      weight: 500;
+      size: 1.375rem;
+    }
+    line-height: 133%;
+  }
+  
+  &__img {
+    text-align: right;
+    
+    img {
+      border-radius: var(--border-radius);
+      overflow: hidden;
+      box-shadow: var(--main-shadow);
+    }
+  }
+}
+
+@media (max-width: 1200px) {
+  .info_about__img {
+    img {
+      width: 100%;
+      object-fit: cover;
+      height: 100%;
+    }
+  }
+}

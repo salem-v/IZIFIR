@@ -1,0 +1,110 @@
+.info_vacancy {
+  background: var(--back-color);
+  padding-top: 55px;
+  margin-bottom: 60px;
+
+  >.container {
+    &::after {
+      content: url("/local/templates/.default/assets/img/background/IZIFIR.svg");
+      position: absolute;
+      right: -592px;
+      top: 42%;
+      z-index: 1;
+      transform: rotate(90deg);
+    }
+  }
+  .main_inf {
+    position: relative;
+
+    &::after {
+      content: url("/local/templates/.default/assets/img/icons/vacancy_info_before.png");
+      position: absolute;
+      bottom: -50px;
+      right: 0;
+      width: 100%;
+    }
+
+    p {
+      font: {
+        weight: 500;
+        size: 1.375rem;
+      }
+      line-height: 133%;
+    }
+  }
+
+  .check_list {
+    padding-top: 60px;
+  }
+
+  .info_date {
+    color: #928282;
+    font: {
+      weight: 500;
+      size: 1rem;
+    }
+    padding: 60px 0;
+    line-height: 133%;
+    position: relative;
+
+    &::after{
+      content: url("/local/templates/.default/assets/img/icons/vacancy_info_before.png");
+      position: absolute;
+      bottom: 30px;
+      right: 0;
+      width: 100%;
+    }
+  }
+}
+
+.skill {
+  position: relative;
+  z-index: 9;
+  margin-top: 60px;
+
+  &__item {
+    width: auto !important;
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .info_vacancy {
+    overflow: hidden;
+
+    .info_date {
+      padding: 40px 0;
+    }
+
+    .main_inf {
+      p {
+        font: {
+          size: 1.125rem;
+        }
+      }
+    }
+  }
+  .skill {
+    .row {
+      flex-wrap: nowrap;
+      overflow: scroll;
+    }
+
+    &__item {
+      margin-bottom: 20px;
+      margin-top: 20px !important;
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .info_vacancy {
+    .main_inf {
+      p {
+        font: {
+          size: 1rem;
+        }
+      }
+    }
+  }
+}

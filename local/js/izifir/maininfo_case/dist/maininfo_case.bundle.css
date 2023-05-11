@@ -1,0 +1,35 @@
+.maininfo_case {
+  background-color: var(--back-color);
+  position: relative; }
+  .maininfo_case:before {
+    content: url("/local/templates/.default/assets/img/background/maininfo_case_back.png");
+    position: absolute;
+    top: -775px;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    z-index: 1; }
+  .maininfo_case__text {
+    font-weight: 600;
+    font-size: 1.375rem;
+    line-height: 120%;
+    color: #686868;
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap; }
+    .maininfo_case__text .text__title {
+      width: 10%; }
+    .maininfo_case__text .text__info {
+      width: 90%; }
+
+@media (max-width: 1200px) {
+  .maininfo_case__text .text__title {
+    width: 15%; }
+  .maininfo_case__text .text__info {
+    width: 80%; } }
+
+@media (max-width: 768px) {
+  .maininfo_case__text .text__title {
+    width: 30%; }
+  .maininfo_case__text .text__info {
+    width: 70%; } }
